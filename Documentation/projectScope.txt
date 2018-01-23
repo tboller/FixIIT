@@ -2,7 +2,8 @@ Project:
 FixMe (Possibly another name?)
 
 Project Objective:
-To build a joint web/android application for students, faculty, and staff to be able to upload and vote on work projects for IIT, with a focus on the web application. 
+To build a joint web/android application for students, faculty, and staff to be able to upload and vote on work projects for IIT,
+with a focus on the web application. 
 
 Project Goals:
 These are the general goals for each of the five sprints.  These are highly subject to change.
