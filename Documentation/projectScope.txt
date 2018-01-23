@@ -1,0 +1,48 @@
+Project:
+FixMe (Possibly another name?)
+
+Project Objective:
+To build a joint web/android application for students, faculty, and staff to be able to upload and vote on work projects for IIT, with a focus on the web application. 
+
+Project Goals:
+These are the general goals for each of the five sprints.  These are highly subject to change.
+
+Sprint 1
+Develop application architecture and UI/UX mappings
+Create Shell of application and Webpages (HELLO WORLD)
+Have apache web server up
+
+Sprint 2
+User Login available
+Non user/login web page
+Initial splash page upon login
+
+Sprint 3
+Application Function: Upload/store tickets and Images
+Application Function: View/Edit tickets and Images
+
+Sprint 4
+Application Function: Voting process
+Application Function: Final decision news feed
+
+Sprint 5
+Conversion of code/Android application development
+Web application user testing
+
+Project Resources:
+1.	Git: For collaboration and storage
+2.	Slack: For communication
+3.	Packer: For testing
+4.	Vagrant: For testing
+5.	Trello: For work assignment/project managment
+6.	MongoDB: For data storage
+7.	MLab: Free database hosting
+8.	Visio: For architecture/UML/UI/UX
+9.	Apache Webserver: To host our web pages and application
+10.	AWS S3: For Image storage
+
+Languages and Framework:
+Web application: MEAN (MongoDB, Express.js, Angular.js, Node.js)
+Android Application: Java ME, XML, Android
+Web page: HTML/CSS/JS
+
