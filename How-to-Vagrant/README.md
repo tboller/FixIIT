@@ -10,7 +10,7 @@ Must have Virtualbox, Vagrant, Packer, and git installed
 
 right click on cmd.exe and run as administrator
 
-![img](images/cmd.PNG "cmd")
+![img](images/cmd.png "cmd")
 
 then type in the command line vagrant --version
 
