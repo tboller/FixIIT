@@ -1,0 +1,433 @@
+/*CLEARFLOATS OF the CHILDREN*/
+.group:before,
+.group:after {
+  content: "";
+  display: table;
+}
+
+.group:after {
+  clear: both;
+}
+/*CLEARFLOATS of the CHILDREN*/
+
+.iit-banner{
+  width: 100%;
+  height: 30%;
+}
+
+.logoutbutton {
+  float: right;
+  margin-right: 12px;
+  display: inline-block;
+  padding: 0;
+  border: none;
+  background: none;
+}
+
+.logoutbutton:hover {
+  background-color: gray;
+}
+
+.iconButton {
+  margin: 0 auto;
+  border-top-width: 0px;
+  border-right-width: 0px;
+  border-bottom-width: 0px;
+  border-left-width: 0px;
+  border-top-style: solid;
+  border-right-style: solid;
+  border-bottom-style: solid;
+  border-left-style: solid;
+}
+
+.container-index {
+    border-radius: 5px;
+    padding: 20px;
+    font-family: 'Sofia', "Arial Black", "Arial Bold", Gadget, sans-serif;
+  }
+
+.loginform {
+ text-align: center;
+ background-color: white;
+ font-size: 20px;
+ font-weight: bold;
+ padding: 0px;
+ border-style: solid;
+}
+
+#Login{
+  background-color: #ccc;
+  margin: 0;
+  padding: 0;
+  margin-top: 0;
+  margin-bottom: 0;
+  border-style: solid;
+  border-width: 8px;
+
+}
+
+#Info{
+  margin: 0;
+  margin-top: 0;
+}
+
+
+
+/*INDEX PAGE HTML*//*INDEX PAGE HTML*//*INDEX PAGE HTML*//*INDEX PAGE HTML*/
+
+
+/*WELCOME PAGE CSS*//*WELCOME PAGE CSS*//*WELCOME PAGE CSS*//*WELCOME PAGE CSS*/
+.welcome-container {
+  max-width: 960px;
+  margin: 0 auto;
+  text-align: center;
+  font-family: 'Sofia', "Arial Black", "Arial Bold", Gadget, sans-serif;
+}
+
+.topnav {
+  background-color: lightgray;
+  overflow: hidden;
+}
+
+.topnav a {
+  float: left;
+  text-decoration: none;
+  color: red;
+  padding: 10px 20px;
+  display: block;
+  font-size: 140%;
+}
+
+.topnav a:hover {
+   background-color: red;
+   color: black;
+}
+
+.active {
+  background-color: gray;
+  color: red;
+}
+
+.topnav .icon {
+  display: none;
+}
+
+@media screen and (max-width: 800px) {
+  .topnav a:not(:first-child) {
+    display: none;
+  }
+  .topnav a.icon {
+    float: right;
+    display: block;
+  }
+
+  .title-registration {
+  font-size: 3.583em; /*(57.331px/16px=3.583em) Minor 3rd */
+}
+
+
+label {
+  font-size: 1.728em; /*(27.648px/16px=1.728em) Minor 3rd */
+}
+
+}
+
+@media screen and (max-width: 800px) {
+  .topnav.responsive {position: relative;}
+  .topnav.responsive a.icon {
+    position: absolute;
+    right: 0;
+    top: 0;
+  }
+  .topnav.responsive a {
+    float: none;
+    display: block;
+    text-align: left;
+  }
+}
+
+.title-h1 {
+  font-size: 4em;/*(64px/16px=4em) Minor 3rd */
+}
+
+.title-h2 {
+  font-size: 2.7em;/*(43.2px/16px=2.7em) Minor 3rd */
+  padding-top: 20px;
+}
+
+.tab-title {
+  font-size: 2em;/*(32px/16px=2em) Minor 3rd */
+  padding-top: 5px;
+
+}
+
+.academicstab {
+  background-color: lightgray;
+  padding-bottom: 25px;
+  font-size: 1.728em; /*(27.648px/16px=1.728em) Minor 3rd */
+  border-style: solid;
+  margin-bottom: 50px;
+}
+
+.slifetab {
+  background-color: lightgray;
+  padding-bottom: 25px;
+  font-size: 1.728em; /*(27.648px/16px=1.728em) Minor 3rd */
+  border-style: solid;
+  margin-bottom: 50px;
+  
+}
+
+.financestab {
+  background-color: lightgray;
+  padding-bottom: 25px;
+  font-size: 1.728em; /*(27.648px/16px=1.728em) Minor 3rd */
+  border-style: solid;
+  margin-bottom: 50px;
+}
+
+.athleticstab {
+  background-color: lightgray;
+  padding-bottom: 25px;
+  font-size: 1.728em; /*(27.648px/16px=1.728em) Minor 3rd */
+  border-style: solid;
+  margin-bottom: 50px;
+}
+
+.librarytab {
+  background-color: lightgray;
+  padding-bottom: 25px;
+  font-size: 1.728em; /*(27.648px/16px=1.728em) Minor 3rd */
+  border-style: solid;
+  margin-bottom: 50px;
+}
+
+.researchtab {
+  background-color: lightgray;
+  padding-bottom: 25px;
+  font-size: 1.728em; /*(27.648px/16px=1.728em) Minor 3rd */
+  border-style: solid;
+  margin-bottom: 50px;
+}
+
+.mystufftab {
+  background-color: lightgray;
+  padding-bottom: 25px;
+  font-size: 1.728em; /*(27.648px/16px=1.728em) Minor 3rd */
+  border-style: solid;
+  margin-bottom: 50px;
+}
+
+.trainingandsupporttab {
+  background-color: lightgray;
+  padding-bottom: 25px;
+  font-size: 1.728em; /*(27.648px/16px=1.728em) Minor 3rd */
+  border-style: solid;
+  margin-bottom: 50px;
+
+}
+
+.welcomepage-footer {
+  margin-top: 25px;
+  margin-bottom: 25px;
+  color: red;
+  font-size: 1.5em;/*(24/16px=1.5em) Minor 3rd */
+}
+
+/*WELCOME PAGE CSS*//*WELCOME PAGE CSS*//*WELCOME PAGE CSS*//*WELCOME PAGE CSS*/
+
+
+/*ACADEMICS PAGE CSS*//*ACADEMICS PAGE CSS*//*ACADEMICS PAGE CSS*/
+
+.academics-container {
+  max-width: 960px;
+  margin: 0 auto;
+  text-align: center;
+  background-color: white;
+  font-family: 'Sofia', "Arial Black", "Arial Bold", Gadget, sans-serif;
+}
+
+.navbar-academics {
+  background-color: lightgray;
+  text-align: center;
+}
+
+.navbar-academics ul {
+  list-style-type: none;
+  display: inline-block;
+}
+
+.navbar-academics li {
+  float: left;
+  margin: 0;
+}
+
+.navbar-academics a {
+  text-decoration: none;
+  color: red;
+  padding: 10px 20px;
+  display: block;
+  font-size: 140%;
+}
+
+.navbar-academics a:hover {
+  background-color: black;
+}
+
+.title-academics {
+  font-size: 4em;
+}
+
+.academicsLINKS {
+  background-color: lightgray;
+  border-style: solid;
+  margin-bottom: 50px;
+}
+
+.academicsLINKS ul {
+  list-style-type: none;
+  display: inline-block;
+  text-align: center;
+}
+
+.academicsLINKS li {
+  list-style-type: none;
+  padding: 10px;
+  text-align: center;
+}
+
+.academicsLINKS a {
+  text-decoration: none;
+  color: red;
+  display: block;
+  font-size: 140%;
+  text-align: center;
+}
+
+.academicsLINKS a:hover {
+  color: blue;
+}
+
+.academics-footer {
+  color: red;
+  padding: 20px;
+  font-size: 1.5em;
+}
+
+/*ACADEMICS PAGE CSS*//*ACADEMICS PAGE CSS*//*ACADEMICS PAGE CSS*/
+
+/*REGISTRATION PAGE CSS*//*REGISTRATION PAGE CSS*//*REGISTRATION PAGE CSS*/
+
+.navbar-registration {
+  background-color: lightgray;
+  text-align: center;
+}
+
+.navbar-registration ul {
+  list-style-type: none;
+  display: inline-block;
+}
+
+.navbar-registration li {
+  float: left;
+  margin: 0;
+}
+
+.navbar-registration a {
+  text-decoration: none;
+  color: red;
+  padding: 10px 20px;
+  display: block;
+  font-size: 140%;
+}
+
+.navbar-registration a:hover {
+  background-color: black;
+}
+
+.container-registration {
+  max-width: 960px;
+  margin: 0 auto;
+  text-align: center;
+  font-family: 'Roboto Condensed', "Arial Black", "Arial Bold", Gadget, sans-serif;
+}
+
+.title-registration{
+ text-align: center;
+}
+
+.info-registration{
+  background: #8c8c8c;
+  text-align: center;
+  padding-top: 10px;
+  border-style: solid;
+  border-width: 3px;
+  margin-bottom: 50px;
+
+}
+
+input[type=text], [type=submit]{
+  width: 13%;
+  padding: 4px 6px;
+  margin: 5px 0;
+  text-align: center;
+  box-sizing: border-box;
+  }
+
+
+.button-registration {
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+  font-size: 1em; /*(16px/16px=1em) Minor 3rd */
+}
+
+.regButton {
+  display: inline-block;
+  padding: 15px 25px;
+  font-size: 24px;
+  cursor: pointer;
+  text-align: center;
+  text-decoration: none;
+  outline: none;
+  color: #fff;
+  background-color: #4CAF50;
+  border: none;
+  border-radius: 15px;
+  box-shadow: 0 9px #999;
+}
+
+.regButton:hover {background-color: #3e8e41}
+
+.regButton:active {
+  background-color: #3e8e41;
+  box-shadow: 0 5px #666;
+  transform: translateY(4px);
+}
+
+
+.footer-registration {
+  color: red;
+  padding: 20px;
+  font-size: 1.5em;
+}
+
+
+/*REGISTRATION PAGE CSS*//*REGISTRATION PAGE CSS*//*REGISTRATION PAGE CSS*/
+
+/*SUCCESS PAGE CSS*/
+
+.success-container {
+  max-width: 960px;
+  margin: 0 auto;
+  text-align: center;
+  font-family: 'Roboto Condensed', "Arial Black", "Arial Bold", Gadget, sans-serif;
+}
+
+
+
+
+
+
+
+
