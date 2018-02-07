@@ -1,0 +1,22 @@
+html {
+
+}
+
+footer {
+
+}
+
+/*phones, custom*/
+@media (max-width: 575px) {
+  
+}
+
+/*Small devices, landscape phones*/
+@media (min-width: 576px) and (max-width: 767px) {
+  
+}
+
+/*Medium devices, tablets*/
+@media (min-width: 768px) {
+  
+}
