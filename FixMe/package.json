@@ -4,7 +4,8 @@
   "license": "MIT",
   "scripts": {
     "ng": "ng",
-    "start": "ng build -w & nodemon ./bin/www --watch dist --watch ./bin/www",
+    "start": "ng build && node ./bin/www",
+    "devstart": "ng build -w & nodemon ./bin/www --watch dist --watch ./bin/www",
     "build": "ng build --prod",
     "test": "ng test",
     "lint": "ng lint",
