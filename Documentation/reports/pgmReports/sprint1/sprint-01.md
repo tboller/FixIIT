@@ -49,7 +49,14 @@ One primary security goal for this sprint is to automate our git download to our
 
 ### Project Manager
 
+During this first sprint I was able to accomplish the following:
 
+- Develop small to midsized goals, and assign tasks to team members
+- Writing a scope document
+- Coordinate team members to assit one another with goals
+- Assisted other team members in accomplishment of goals
+
+During this sprint I spent quite alot of time researching. In particular I spent most of my time researching Vagrant and Packer.io.  Along with those I did significant research on integration with git and security using rsa keys. Further I have spent time research the MEAN stack, particularly node.js and angular.js.
 
 ### Developer
 
