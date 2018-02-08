@@ -1,23 +1,23 @@
-#Sprint 1 Team 6
+# Sprint 1 Team 6
 
-##Team Roles
+## Team Roles
 
-###Project Manager
+### Project Manager
 Thomas Boller
 
-###Developer
+### Developer
 Emmanuel Zambrano
 
-###Jr. Developer
+### Jr. Developer
 Vince Giaimo
 
-###IT Operations
+### IT Operations
 Matteo Giaimo
 
-###UI/UX Developer
+### UI/UX Developer
 Leydi Suriano
 
-##Sprint 1 Goals
+## Sprint 1 Goals
 
 For this first sprint we had three primary goals
 1. Develop the architecture for our application, and the UI/UX drawings
@@ -27,21 +27,21 @@ For this first sprint we had three primary goals
 Of these goals we can say we successfully accomplished the majority of all three. After learning of the Dev Ops methods there are a number of things we might have changed.
 Adapting our goal setting into smaller more immediately accomplished tasks would have made the work more manageable. 
 
-##Sprint Accomplishments
+## Sprint Accomplishments
 
-###accomplishments
+### accomplishments
 
-###Goals for next sprint
+### Goals for next sprint
 
-##Bug Tracking
+## Bug Tracking
 
-##Security
+## Security
 
-##Team Comments
+## Team Comments
 
-###Project Manager
+### Project Manager
 
-###Developer
+### Developer
 
 For the first sprint, Emmanuel functioned as the developer. The following was accomplished:
 
@@ -54,7 +54,7 @@ Alot of research was done during this sprint. Research that helped us plan our a
 - Add user-login functionality. From past experience, we have come to the conclusion that this should be done first. This includes, beginning to work with the database and use a technology such as passport.js.
 - Implement the UI that the UI/UX developer created.
 
-###Jr. Developer
+### Jr. Developer
 
 During, this first sprint I have helped develop and create the basic skeleton structure of what our web application design will look with Leydi.  I have created the 
 sketch diagram for the news feed page that will represent the main page of our web application. Also, I have done research and worked with the team members to learn 
@@ -63,7 +63,7 @@ and will host the teams web application pages. Lastly, I am starting to learn ho
 present a professional look to the web application. This won’t start getting implemented until the next sprint. In the web application I will make it consist of a well-designed, 
 user friendly navigation bar and there will be a thumb nail design implemented within the news feed, users can interact with voting and commenting on the items that need to be fixed. 
 
-###IT Operations
+### IT Operations
 
 For the First sprint I was tasked with dealing with “It Operations”. The first thing I started working on was making sure I understand how to use Packer and Vagrant,
 this was very challenging and it took a good chuck of time of the first sprint to figure out. I was having issues understanding how packer would automate builds to
@@ -75,7 +75,7 @@ our current services and packages we have installed on our server so we can easi
 document to help guide my team through building our vagrant build so if they ever had any confusion they can reference that document. There is still a ton of work that
 needs to be completed on our server in order to make sure we have a stable environment that we can rapidly deploy within minutes.
 
-###UI/UX Developer
+### UI/UX Developer
 
 During this first Sprint I functioned as the UI/UX Developer. I was responsible for creating the basic UI/UX design of our web page and worked along with Vince to accomplish that. 
 After all the team agreed with one design I drafted a sample for the index, login, user and admin pages. I also created a document that outlines each page’s design with tentative 
@@ -83,7 +83,7 @@ fonts and colors. We are still working on the design of the logo. I also put tog
 the web page layout, I looked for some colors that would usually work together and fonts that would go well with our design. But still, we are planning on perfecting this design 
 as we go along.
 
-##References
+## References
 
 https://blog.codeship.com/packer-vagrant-tutorial/
 Instructor Packer.io tutorial
