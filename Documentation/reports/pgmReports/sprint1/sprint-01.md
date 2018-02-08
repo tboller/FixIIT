@@ -30,11 +30,12 @@ Adapting our goal setting into smaller more immediately accomplished tasks would
 ## Sprint Accomplishments
 
 ### accomplishments
+Our first goal for this sprint was to develop the architecture for our application and the UI/UX drawings.  We were first able to come up with the drawing for the Database's main tables. Then were drew up how our application's pages would look, and then each individual page. We also managed to put together a drawing of our server's contents. Having these completed we were able to start up a skeleton structure of our application and its pages. Leading us to complete our second goal. The third goal proved most difficult. All of us had to do extensive research on the topic of Packer.io and Vagrant. Our IT Operations specialist for the sprint was eventually able to create a working packer/vagrant box for our server.  We then began work on making that box more secure with git deploy keys. 
 
 ### Goals for next sprint
-User Login available
-Non user/login web page
-Initial splash page upon login
+- User Login available
+- Non user/login web page
+- Initial splash page upon login
 
 ## Bug Tracking
 We ran into an issue with our file structure on github. There was a saved file in a reposity with the special character ':' in the name.
@@ -90,6 +91,6 @@ as we go along.
 
 ## References
 
-https://blog.codeship.com/packer-vagrant-tutorial/
-Instructor Packer.io tutorial
-The Dev Ops Handbook
+- https://blog.codeship.com/packer-vagrant-tutorial/
+- Instructor Packer.io tutorial
+- The Dev Ops Handbook
