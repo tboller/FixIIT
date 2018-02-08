@@ -32,8 +32,13 @@ Adapting our goal setting into smaller more immediately accomplished tasks would
 ### accomplishments
 
 ### Goals for next sprint
+User Login available
+Non user/login web page
+Initial splash page upon login
 
 ## Bug Tracking
+We ran into an issue with our file structure on github. There was a saved file in a reposity with the special character ':' in the name.
+This prevented Windows users from pulling/cloning the repository.  We corrected this by renaming the directory without the ':', and deciding on a file structure and on forking to prevent such an issue from happening again.
 
 ## Security
 
