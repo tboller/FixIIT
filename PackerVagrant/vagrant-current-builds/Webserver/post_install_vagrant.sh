@@ -33,6 +33,12 @@ sudo apt-get install -y apache2
 # start apache2 web service
 sudo systemctl start apache2
 
+# Install NPM
+sudo apt-get install -y npm 
+
+# Install nodejs (doesnt start like a service)
+sudo apt-get -y install nodejs
+
 
 ##################################################
 # Add Microsoft Powershell preview for Ubuntu
@@ -48,12 +54,6 @@ sudo apt-get update
 
 # Install PowerShell
 sudo apt-get install -y powershell
-
-# Install apache2 Sever
-sudo apt-get install -y apache2
-
-# start apache2 web service
-sudo systemctl enable apache2
 
 # Start PowerShell
 pwsh
