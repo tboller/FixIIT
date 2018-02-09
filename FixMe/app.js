@@ -10,9 +10,16 @@ var users = require('./routes/users');
 
 var app = express();
 
+//MONGODB and Mongoose
+const mongoose = require('mongoose');
+var mongo = require('./config/mongo.js');
+mongoose.connect(mongo.mongoString);
+var db = mongoose.connection;
+db.on('error', console.error.bind(console, 'connection error:'));
+db.once('open', function() {
+  console.log("Connected to Database..");
+});
 
-// uncomment after placing your favicon in /public
-//app.use(favicon(path.join(__dirname, 'public', 'favicon.ico')));
 app.use(logger('dev'));
 app.use(bodyParser.json());
 app.use(bodyParser.urlencoded({ extended: false }));
