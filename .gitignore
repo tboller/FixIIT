@@ -41,3 +41,13 @@ testem.log
 # System Files
 .DS_Store
 Thumbs.db
+
+#Packer/Vagrant files
+packer_cache/
+*.box
+.vagrant/
+build/*
+Vagrantfile
+
+#RSA Key
+id_rsa

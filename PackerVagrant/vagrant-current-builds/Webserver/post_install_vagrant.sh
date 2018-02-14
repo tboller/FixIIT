@@ -13,11 +13,12 @@ sudo usermod -a -G admin vagrant
 
 # Installing vagrant keys
 wget --no-check-certificate 'https://raw.github.com/mitchellh/vagrant/master/keys/vagrant.pub'
-sudo mkdir -p /home/vagrant/.ssh
+#sudo mkdir -p /home/vagrant/.ssh
 sudo chown -R vagrant:vagrant /home/vagrant/.ssh
 cat ./vagrant.pub >> /home/vagrant/.ssh/authorized_keys
 sudo chown -R vagrant:vagrant /home/vagrant/.ssh/authorized_keys
 echo "All Done!"
+
 
 #http://www.fail2ban.org/wiki/index.php/MANUAL_0_8#Jails
 sudo sed -i "s/bantime = 600/bantime = -1/g" /etc/fail2ban/jail.conf
@@ -27,17 +28,29 @@ sudo service fail2ban restart
 ##################################################
 # Add User customizations below here
 ##################################################
-# Install apache2 Sever
+#Ensure the apt-get is up to date
+sudo apt-get update
+
+#Install apache2 Sever
 sudo apt-get install -y apache2
 
-# start apache2 web service
+#Start apache2 web service
 sudo systemctl start apache2
 
-# Install NPM
+#Install NPM
 sudo apt-get install -y npm 
 
-# Install nodejs (doesnt start like a service)
+#Install nodejs (doesnt start like a service)
 sudo apt-get -y install nodejs
+
+#Install Git
+sudo apt-get install -y git
+
+#Remove vim-tiny
+sudo apt -y remove vim-tiny
+
+#Add full installation of VIM
+sudo apt -y install vim
 
 
 ##################################################
@@ -57,3 +70,11 @@ sudo apt-get install -y powershell
 
 # Start PowerShell
 pwsh
+
+
+##################################################
+# Perform Changes to filesystem
+##################################################
+
+#make vagrant user the owner of the cloned git repository
+sudo chown -R vagrant:vagrant ~/2018-itmt430-6

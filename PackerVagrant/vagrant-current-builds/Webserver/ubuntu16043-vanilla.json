@@ -61,9 +61,24 @@
  
   "provisioners": [
   {
-    "type": "shell",
-  "execute_command" : "echo 'vagrant' | {{ .Vars }} sudo -E -S sh '{{ .Path }}'", 
-    "script": "post_install_vagrant.sh"
+    "type": "file",
+    "source": "./id_rsa",
+    "destination": "/home/vagrant/"
+  },
+  {
+      "type": "file",
+      "source": "./config",
+      "destination": "/home/vagrant/"     
+  },
+  {
+		"type": "shell",
+	  "execute_command" : "echo 'vagrant' | {{ .Vars }} sudo -E -S sh '{{ .Path }}'", 
+		"script": "git_down.sh"
+  },
+  {
+		"type": "shell",
+	  "execute_command" : "echo 'vagrant' | {{ .Vars }} sudo -E -S sh '{{ .Path }}'", 
+		"script": "post_install_vagrant.sh"
   }
 ],
   "post-processors": [
