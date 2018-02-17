@@ -1,19 +1,38 @@
 <!DOCTYPE HTML>
-<html lang="en">
+<html lang="en-us" class="nojs">
 <head>
-<meta charset="utf-8">
-<link rel="stylesheet" type="text/css" href="css/cssreset.css">
-<link rel="stylesheet" media="screen" href="css/style.css">
-<meta name="viewport" content="width=device-width, initial-scale=1.0, shrink-to-fit=no">
-<title>Home Page</title>
+	<title> FixMe IIT </title>
+	<meta charset="utf-8" />
+	<meta name="viewport" content="width=device-width,initial-scale=1.0,shrink-to-fit=no" />
+	<link rel="stylesheet" type="text/css" href="css/cssreset.css">
+	<link rel="stylesheet" media="screen" href="css/style.css" />
+	<script src="javascript/login.js" async></script>
 </head>
 <body> 
-<img class="iit-banner" src="project-2-images/iitbanner.gif" alt="IIT Banner">
-<div class="container-index">
-  <form class="loginform" method="get" autocomplete="on" action="welcome.html" onsubmit="xferFocus(this)">
-    <fieldset id="Login"><h1> Welcome to FixIIT</h1></fieldset>
-  
-  </form> 
-</div>
+	<div class="container-index">
+		<form id="indexContainer" method="get" autocomplete="on" action="login.html">
+			<fieldset id="Title"><h1> FixMe IIT</h1>
+				<ul id="login">
+					<li id="button-login">
+						<input type="submit" name="login" id="login" value="Login" />
+					</li>
+					<li id="button-signup">
+						<input type="submit" name="sign-up" id="sign-up" value="Sign up" />
+					</li>
+				</ul>
+				<p id="aboutus"> About us: ---------------------------------------- </p>
+				
+				<footer id="Footer">
+					<nav id="links">
+						<ul>
+							<li><a href="termsofuse.html">Terms of use</a></li>
+							<li><a href="contact.html">Contact</a></li>
+							<li><a href="sitemap.html">Sitemap</a></li>
+						</ul>
+					</nav>
+				</footer>
+			</fieldset>			
+		</form>
+	</div>
 </body>
 </html>
