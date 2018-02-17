@@ -36,6 +36,8 @@ npm-debug.log
 testem.log
 /typings
 
+*/.DS_Store
+
 # e2e
 /e2e/*.js
 /e2e/*.map
@@ -43,3 +45,13 @@ testem.log
 # System Files
 .DS_Store
 Thumbs.db
+
+#Packer/Vagrant files
+packer_cache/
+*.box
+.vagrant/
+build/*
+Vagrantfile
+
+#RSA Key
+id_rsa
