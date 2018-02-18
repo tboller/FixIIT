@@ -39,7 +39,8 @@ The first major goal that our team had to overcome was making sure we could auto
 
 
 ## Bug Tracking
-Issue that appeared during this second sprint was trying to overcome automating our github repo download. The script had to be open on the pc in order for it to go through the packer build without erroring ( add the solution to this problem here ). Trying to run our nodejs scripts on our server was giving us errors due to having an older version of nodejs, we overcame this issue by creating a new script that pointed to the newer version of nodejs. A big issue was trying to automate copy contents from our github repo to the /var/www/html directory in our ubuntu server, this issue was resolved by trail and error using different arguments in our scripts.
+Issue that appeared during this second sprint was trying to overcome automating our github repo download. The script had to be open on the pc in order for it to go through the packer build without erroring ( add the solution to this problem here ). Trying to run our nodejs scripts on our server was giving us errors due to having an older version of nodejs, we overcame this issue by creating a new script that pointed to the newer version of nodejs. Another issue with nodejs was trying to automate npm starting, the system would not continue to build. Big issue was trying to automate copying contents from our github repo to the 
+/var/www/html directory in our ubuntu server, this issue was resolved by trail and error using different arguments in our scripts.
 
 ## Security
 
@@ -69,6 +70,7 @@ During this second sprint i was able to create a script to automate copying all 
 
 
 ### IT Operations
+During the second sprint, I have created the html and CSS webpages along with Leydi. I have created the navigation bar with the drop-down menu to help the user navigate through the webpage. Also, we have created the index page which will give the user options to login or signup and even give some more information about our site. Then, we have the login page where the user can enter their username and password to login and if they have trouble a java script message will be displayed on the screen. Next, we have developed the user page, which I am still currently working on building a thumbnail card to give a similar feel to Instagram, so the user can scroll down on pictures located on the news feed, which they will be able to vote on which items should be fixed at IIT. Also, we have an admin page that will be like the user page, but allow administrative access to delete posts and prioritize them. In the next sprint, the goal for the web design will be to finish creating the thumbnail voting cards and figure out how to let the user upload photos they would like to post. 
 
 
 
