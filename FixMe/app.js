@@ -15,7 +15,9 @@ const mongoose = require('mongoose');
 var mongo = require('./config/mongo.js');
 mongoose.connect(mongo.mongoString);
 var db = mongoose.connection;
-db.on('error', console.error.bind(console, 'connection error:'));
+db.on('error', function(){
+  console.log("DB error");
+});
 db.once('open', function() {
   console.log("Connected to Database..");
 });
