@@ -12,8 +12,9 @@ var UserSchema = Schema({
   role: {type: String}
 });
 
-module.exports = mongoose.model('User', UserSchema);
+const User = module.exports = mongoose.model('User', UserSchema);
 
+// Add User to Database
 module.exports.addUser = function(newUser, callback){
   bcrypt.genSalt(10, function(err, salt) {
     bcrypt.hash(newUser.password, salt, function(err, hash) {
