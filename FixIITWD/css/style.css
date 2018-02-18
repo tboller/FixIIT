@@ -10,6 +10,12 @@
 }
 /*CLEARFLOATS of the CHILDREN*/
 
+
+.iit-banner{
+  width: 100%;
+  height: 30%;
+}
+
 .logoutbutton {
   float: right;
   margin-right: 12px;
