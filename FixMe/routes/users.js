@@ -1,8 +1,19 @@
 var express = require('express');
 var router = express.Router();
-const config = require('../config/mongo');
-const User = require('../models/user');
+var passport = require('passport');
+var jwt = require('jsonwebtoken');
+var config = require('../config/mongo');
+var User = require('../models/user');
 
+//Test Route to retrieve data from db
+router.get('/test', function(req, res, next){
+  User.find({}).exec(function (err, users) {
+     if (err) {
+       return next(err);
+     }
+     res.json(users);
+   });
+});
 //Register Route
 router.post('/register', function(req, res, next) {
 
@@ -28,8 +39,8 @@ router.post('/login', function(req, res, next) {
 });
 
 //Profile Route
-router.get('/profile', function(req, res, next) {
-  res.send('Profile');
+router.get('/profile', passport.authenticate('jwt', {session:false}), function(req, res, next) {
+  res.json({msg: "hello"});
 });
 
 module.exports = router;

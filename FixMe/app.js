@@ -4,6 +4,8 @@ var favicon = require('serve-favicon');
 var logger = require('morgan');
 var cookieParser = require('cookie-parser');
 var bodyParser = require('body-parser');
+var passport = require('passport');
+var cors = require('cors');
 var mongoose = require('mongoose');
 var mongo = require('./config/mongo');
 
@@ -11,7 +13,7 @@ var index = require('./routes/index');
 var users = require('./routes/users');
 
 //MONGODB and Mongoose
-mongoose.connect(mongo.mongoString);
+mongoose.connect(mongo.database);
 var db = mongoose.connection;
 db.on('error', function(){
   console.log("DB error");
@@ -30,7 +32,31 @@ app.use(cookieParser());
 
 // Angular static files
 app.use(express.static(path.join(__dirname, 'dist')));
-app.use('/', express.static(path.join(__dirname, 'dist')));
+
+// Cors
+app.use(cors());
+
+// Passport Middlware JWT configuration
+app.use(passport.initialize());
+app.use(passport.session());
+var JwtStrategy = require('passport-jwt').Strategy;
+var ExtractJwt = require('passport-jwt').ExtractJwt;
+var opts = {};
+opts.jwtFromRequest = ExtractJwt.fromAuthHeaderWithScheme('jwt');
+opts.secretOrKey = mongo.secret;
+passport.use(new JwtStrategy(opts, function(jwt_payload, done) {
+  User.getUserById(jwt_payload.data._id, function(err, user){
+    if(err) {
+      return done(err, false);
+    }
+
+    if(user) {
+      return done(null, user);
+    } else {
+      return done(null, false);
+    }
+  });
+}));
 
 // Routes
 app.use('/', index);
