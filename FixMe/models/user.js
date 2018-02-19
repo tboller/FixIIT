@@ -24,3 +24,22 @@ module.exports.addUser = function(newUser, callback){
     });
   });
 }
+
+// Get User by ID
+module.exports.getUserById = function(id, callback) {
+  User.findById(id, callback);
+}
+
+// Get User by Username
+module.exports.getUserByUsername = function(username, callback) {
+  const query = {username: username}
+  User.findOne(query, callback);
+}
+
+// Compare Password
+module.exports.comparePassword = function(candidatePassword, hash, callback) {
+  bcrypt.compare(candidatePassword, hash, (err, isMatch) => {
+    if(err) throw err;
+    callback(null, isMatch);
+  });
+}

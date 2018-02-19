@@ -46,6 +46,7 @@ opts.jwtFromRequest = ExtractJwt.fromAuthHeaderWithScheme('jwt');
 opts.secretOrKey = mongo.secret;
 passport.use(new JwtStrategy(opts, function(jwt_payload, done) {
   User.getUserById(jwt_payload.data._id, function(err, user){
+    console.log(jwt_payload);
     if(err) {
       return done(err, false);
     }

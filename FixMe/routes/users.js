@@ -2,7 +2,7 @@ var express = require('express');
 var router = express.Router();
 var passport = require('passport');
 var jwt = require('jsonwebtoken');
-var config = require('../config/mongo');
+var mongo = require('../config/mongo');
 var User = require('../models/user');
 
 //Test Route to retrieve data from db
@@ -35,12 +35,39 @@ router.post('/register', function(req, res, next) {
 
 //Login Route
 router.post('/login', function(req, res, next) {
-  res.send('Login');
+  var username = req.body.username;
+  var password = req.body.password;
+
+  User.getUserByUsername(username, function(err, user){
+    if(err) concole.log(err);
+    if(!user){
+      return res.json({msg: 'User not found'});
+    }
+    User.comparePassword(password, user.password, function(err, isMatch){
+      if(err) console.log(err);
+      if(isMatch){
+        var token = jwt.sign({data: user}, mongo.secret,{expiresIn: 604800});
+        res.json({
+          success: true,
+          token: 'JWT '+token,
+          user: {
+            id: user._id,
+            name: user.name,
+            username: user.username,
+            email: user.email
+          }
+
+        });
+      }else {
+        return res.json({success: false, msg: 'Incorrect Password'});
+      }
+    });
+  });
 });
 
 //Profile Route
 router.get('/profile', passport.authenticate('jwt', {session:false}), function(req, res, next) {
-  res.json({msg: "hello"});
+  res.json({msg: 'hello'});
 });
 
 module.exports = router;
