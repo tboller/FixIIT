@@ -49,7 +49,7 @@ packer_cache/
 *.box
 .vagrant/
 build/*
-Vagrantfile
+
 
 #RSA Key
 id_rsa
