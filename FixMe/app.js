@@ -9,7 +9,6 @@ var cors = require('cors');
 var mongoose = require('mongoose');
 var mongo = require('./config/mongo');
 
-var index = require('./routes/index');
 var users = require('./routes/users');
 
 //MONGODB and Mongoose
@@ -27,7 +26,6 @@ var app = express();
 //Misc Middlware
 app.use(logger('dev'));
 app.use(bodyParser.json());
-app.use(bodyParser.urlencoded({ extended: false }));
 app.use(cookieParser());
 
 // Angular static files
@@ -60,8 +58,13 @@ passport.use(new JwtStrategy(opts, function(jwt_payload, done) {
 }));
 
 // Routes
-app.use('/', index);
 app.use('/users', users);
+
+app.get('/', (req, res) => {
+  res.send('invaild endpoint');
+});
+
+
 
 // 404 error cather
 app.use(function(req, res, next) {

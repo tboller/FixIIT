@@ -20,6 +20,7 @@
     "morgan": "^1.9.0",
     "nodemon": "^1.14.11",
     "passport": "^0.4.0",
+    "passport-http": "^0.3.0",
     "passport-jwt": "^3.0.1",
     "rxjs": "^5.5.6",
     "serve-favicon": "^2.4.5",
