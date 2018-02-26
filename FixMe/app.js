@@ -30,6 +30,7 @@ app.use(cookieParser());
 
 // Angular static files
 app.use(express.static(path.join(__dirname, 'dist')));
+app.use('/', express.static(path.join(__dirname, 'dist')));
 
 // Cors
 app.use(cors());
@@ -37,8 +38,11 @@ app.use(cors());
 // Passport Middlware JWT configuration
 app.use(passport.initialize());
 app.use(passport.session());
+
 var JwtStrategy = require('passport-jwt').Strategy;
 var ExtractJwt = require('passport-jwt').ExtractJwt;
+var User = require('./models/user');
+
 var opts = {};
 opts.jwtFromRequest = ExtractJwt.fromAuthHeaderWithScheme('jwt');
 opts.secretOrKey = mongo.secret;
