@@ -37,6 +37,9 @@ The first major goal that our team had to overcome was making sure we could auto
 1. Apache2 server running https protocol for security
 2. Implement social media authentication
 3. Incorporate Mongoose ODM 
+4. Get our backend and front end both running on vagrant 
+5. add features to webpages/design
+
 
 ## Bug Tracking
 
