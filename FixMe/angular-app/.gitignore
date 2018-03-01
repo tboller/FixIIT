@@ -1,15 +1,13 @@
 # See http://help.github.com/ignore-files/ for more about ignoring files.
-# Keys and Secret stuff
-FixMe/config
 
 # compiled output
-FixMe/dist
+/dist
 /dist-server
 /tmp
 /out-tsc
 
 # dependencies
-FixMe/node_modules
+/node_modules
 
 # IDEs and editors
 /.idea
@@ -36,8 +34,6 @@ npm-debug.log
 testem.log
 /typings
 
-*/.DS_Store
-
 # e2e
 /e2e/*.js
 /e2e/*.map
@@ -45,13 +41,3 @@ testem.log
 # System Files
 .DS_Store
 Thumbs.db
-
-#Packer/Vagrant files
-packer_cache/
-*.box
-.vagrant/
-build/*
-
-
-#RSA Key
-id_rsa

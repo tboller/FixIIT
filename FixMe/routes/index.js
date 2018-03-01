@@ -1,9 +1,8 @@
 var express = require('express');
 var router = express.Router();
 
-/* GET home page. */
-router.get('/', function(req, res, next) {
-  res.send('It works!');
+router.get('/', (req, res) => {
+  res.send('invaild endpoint');
 });
 
 module.exports = router;
