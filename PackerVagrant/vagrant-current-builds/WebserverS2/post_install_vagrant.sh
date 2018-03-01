@@ -43,6 +43,12 @@ sudo rm /var/www/html/index.html
 cd /home/vagrant/2018-itmt430-6/FixIITWD
 sudo cp -a /home/vagrant/2018-itmt430-6/FixIITWD/. /var/www/html
 
+# Directory transverse fix
+cd /
+cd /etc/apache2
+sudo  sed -i  's/Indexes//g' apache2.conf
+sudo service apache2 restart
+
 #Install nodejs (doesnt start like a service)
 cd ~
 curl -sL https://deb.nodesource.com/setup_9.x -o nodesource_setup.sh
