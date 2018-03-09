@@ -4,7 +4,7 @@ This guide will demonstrate how to get the Vagrant environment up and running on
 
 ## Step 1 ##
 
-CLONE GITHUB REPO to make we have the latest release of our build
+CLONE GITHUB REPO to make sure we have the latest release of our build
  
 ## Step 2 ##
 
