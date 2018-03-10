@@ -68,7 +68,9 @@ app.get('/', (req, res) => {
   res.send('invaild endpoint');
 });
 
-
+app.get('*', (req, res) => {
+	res.sendFile(path.join(__dirname, 'dist/index.html'));
+});
 
 // 404 error cather
 app.use(function(req, res, next) {
