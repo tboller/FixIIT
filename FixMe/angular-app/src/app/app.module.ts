@@ -7,6 +7,7 @@ import { LoginComponent } from './login/login.component';
 import { RegisterComponent } from './register/register.component';
 import { UserComponent } from './user/user.component';
 import { AdminComponent } from './admin/admin.component';
+import { HomeComponent } from './home/home.component';
 
 const appRoutes: Routes = [
 	{ path: '', component: LoginComponent},
@@ -19,7 +20,8 @@ const appRoutes: Routes = [
     LoginComponent,
     RegisterComponent,
     UserComponent,
-    AdminComponent
+    AdminComponent,
+    HomeComponent
   ],
   imports: [
 		RouterModule.forRoot(
