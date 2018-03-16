@@ -16,24 +16,27 @@ Vagrant.configure("2") do |config|
   config.vm.define "loadb" do |loadb|
   loadb.vm.box = "loadb"
   loadb.vm.hostname = "loadb"
-  loadb.vm.network "private_network", ip: "192.168.33.20"
-  loadb.vm.network "forwarded_port", guest: 80, host: 8082,
+  loadb.vm.network "public_network"
+  loadb.vm.network "forwarded_port", guest: 80, host: 8082
+  loadb.vm.network "forwarded_port", guest: 3000, host: 3003,
     auto_correct: true
   end
   
   config.vm.define "node1" do |node1|
   node1.vm.box = "node1"
   node1.vm.hostname = "node1"
-  node1.vm.network "private_network", ip: "192.168.33.10"
-  node1.vm.network "forwarded_port", guest: 80, host: 8080,
+  node1.vm.network "public_network"
+  node1.vm.network "forwarded_port", guest:80, host: 8080
+  node1.vm.network "forwarded_port", guest:3000, host: 3001,
   auto_correct: true
   end
   
   config.vm.define "node2" do |node2|
   node2.vm.box = "node2"
   node2.vm.hostname = "node2"
-  node2.vm.network "private_network", ip: "192.168.33.11"
-  node2.vm.network "forwarded_port", guest: 80, host: 8081,
+  node2.vm.network "public_network"
+  node2.vm.network "forwarded_port", guest: 80, host: 8081
+  node2.vm.network "forwarded_port", guest:3000, host: 3002,
     auto_correct: true
   end
 
