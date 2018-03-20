@@ -45,6 +45,7 @@
     border-radius: 5px;
     padding: 20px;
     font-family: 'Sofia', "Arial Black", "Arial Bold", Gadget, sans-serif;
+	align-content: center;
   }
 
 #indexContainer, #loginContainer, #userContainer {
@@ -54,6 +55,7 @@
  font-weight: bold;
  padding: 0px;
  border-style: solid;
+ align-content: center;
 }
 
 fieldset#Title, fieldset#Info {
@@ -135,10 +137,78 @@ ul.login {
 	align-content: center;
 }
 
+#thumbnails.img {
+    border: 1px solid #ddd; /* Gray border */
+    border-radius: 4px;  /* Rounded border */
+    padding: 5px; /* Some padding */
+    width: 150px; /* Set a small width */
+}
 
+/* Add a hover effect (blue shadow) */
+img:hover {
+    box-shadow: 0 0 3px 3px rgba(0, 140, 186, 0.5);
+}
 
+div.row {
+	align-content: center;
+	text-align: center;
+	margin-right: 10%;
+	margin-left: 10%;
+}
 
-/*INDEX PAGE HTML*//*INDEX PAGE HTML*//*INDEX PAGE HTML*//*INDEX PAGE HTML*/
+div.column {
+    width: 85%;
+    display: block;
+	padding: 20px;
+	margin-right: 5%;
+	margin-left: 5%;
+}
+
+/* Display the columns below each other instead of side by side on small screens */
+@media screen and (max-width: 650px) {
+    div.column {
+		width: 85%;
+		display: block;
+		padding: 20px;
+		margin-right: 5%;
+		margin-left: 5%;
+    }
+}
+
+/* Add some shadows to create a card effect */
+.thumbnails-container {
+    box-shadow: 0 4px 5px 0 rgba(0, 0, 0, 0.2);
+	width: 100%;
+	align-content: center;
+}
+
+/* Some left and right padding inside the container */
+.button-container {
+    padding: 0 16px;
+}
+
+/* Clear floats */
+.button-container::after, .row::after {
+    content: "";
+    clear: both;
+    display: table;
+}
+
+.button {
+    border: none;
+    outline: 0;
+    display: inline-block;
+    padding: 8px;
+    color: white;
+    background-color: #000;
+    text-align: center;
+    cursor: pointer;
+    width: 5rem;
+}
+
+.button:hover {
+    background-color: #555;
+}
 
 
 /*WELCOME PAGE CSS*//*WELCOME PAGE CSS*//*WELCOME PAGE CSS*//*WELCOME PAGE CSS*/
