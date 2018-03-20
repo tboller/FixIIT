@@ -41,11 +41,11 @@ The goals where chosen to improve our webpage to make it more secure and user fr
 
 4. Data encrypted at rest- We have be working on implementing https protocol on our webpage. Also, we have implemented google authentication for our users.
 
- 5. Database makes use of master/slave replication-
+5. Database makes use of master/slave replication-
 
- 6. Use of Repsonsive web design- Our team has implemented media queries with in our web design to make our webpage more user freindly by allowing the webpage conform to various screen sizes. 
+6. Use of Repsonsive web design- Our team has implemented media queries with in our web design to make our webpage more user freindly by allowing the webpage conform to various screen sizes. 
 
- 7. Use of https- The team has been working on implementing the https protocol within our webpage, currently we do not have it at a fully functional state. 
+7. Use of https- The team has been working on implementing the https protocol within our webpage, currently we do not have it at a fully functional state. 
 
 8. Use of user authentication-
 

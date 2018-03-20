@@ -72,6 +72,8 @@ Matteo Giaimo
 ### Jr. Developer
 Leydi Suriano
 
+During this third Sprint I functioned as the Jr. Developer. I was responsible for creating the user and admin page of our platform. Based on the design that our team agreed on in the previous Sprint, I worked along with Vince to complete the layout of the pages, I worked on modifying the CSS to make it look like our proposed design. So far, our design consists of the main page that gives the user the option of sign up or login in, login page where the user can enter their credentials to be validated, user page which will be available to validated users, and admin page which will be available to validated admin users. We successfully completed the tasks that we had for this Sprint and plan to continue perfecting the pages design in the next Sprint. 
+
 ### IT Operations
 Thomas Boller
 
