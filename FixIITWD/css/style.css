@@ -41,13 +41,13 @@
   border-left-style: solid;
 }
 
-.container-index, .container-login {
+.container-index, .container-login, .container-user {
     border-radius: 5px;
     padding: 20px;
     font-family: 'Sofia', "Arial Black", "Arial Bold", Gadget, sans-serif;
   }
 
-#indexContainer, #loginContainer {
+#indexContainer, #loginContainer, #userContainer {
  text-align: center;
  background-color: white;
  font-size: 20px;
@@ -125,7 +125,7 @@ p#aboutus {
 	font-size: 0.7em;
 }
 
-#indexContainer, #loginContainer {
+#indexContainer, #loginContainer, #userContainer {
 	margin: auto;
 	max-width: 40em;
 	align-content: center;
