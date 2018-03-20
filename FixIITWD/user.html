@@ -14,11 +14,12 @@
 			<div class="topnav" id="myTopnav">
 				<a href="user.html" class="active"> Home </a>
         
-				<div button class="logoutbutton" onclick="window.location.href='login.html'"><img src="project-2-images/iconbutton.png" class= "iconButton" alt="logout"></div>
+				<button class="logoutbutton" onclick="window.location.href='login.html'"><img src="project-2-images/iconbutton.png" class= "iconButton" alt="logout"></button>
 
 				<div class="dropdown">
 					<a class="menu" href="#Menu"> Menu </a>
-					<button class="dropbtn" onclick="myFunction()"><a href="javascript:void(0);" class="icon" onclick="myFunction()">&#9776;</a>
+					<button class="dropbtn" onclick="myFunction()">
+						<a href="javascript:void(0);" class="icon" onclick="myFunction()">&#9776;</a>
 						<i class="fa fa-caret-down"></i>
 					</button>
 				
@@ -34,25 +35,33 @@
 	</header>
   
 	<div class="container-user">
-		<div id="userContainer" method="get" autocomplete="on">
+		<div id="userContainer">
 			<h1> FixMe IIT</h1>
 			
 			<div class="row">
 				<div class="column">
 					<div class="thumbnails-container">
-						<a target="_blank" href="images/iitcamp.jpg"><img src="images/iitcamp.jpg" alt="IIT camp" style="width:25rem"></a>
-						<div class="button-container">
-							<p><button class="button">Contact</button></p>
-						</div>
+						<a target="_blank" href="images/phone.jpeg"><img src="images/phone.jpeg" alt="phone" style="width:25rem"></a>
+						<nav id="button-container">
+							<ul>
+								<li><img src="images/thumbsup.png" class="iconButton" alt="like"></li>
+								<li><img src="images/thumbsdown.png" class="iconButton" alt="dislike"></li>
+								<li><img src="images/comment.jpeg" class="iconButton" alt="comment"></li>
+							</ul>
+						</nav>
 					</div>
 				</div>
   
 				<div class="column">
 					<div class="thumbnails-container">
-						<a target="_blank" href="images/hawklogo.jpg"><img src="images/hawklogo.jpg" alt="Hawk logo" style="width:25rem"></a>
-						<div class="button-container">
-							<p><button class="button">Contact</button></p>
-						</div>
+						<a target="_blank" href="images/pc.jpeg"><img src="images/pc.jpeg" alt="pc" style="width:25rem"></a>
+						<nav id="button-container">
+							<ul>
+								<li><img src="images/thumbsup.png" class="iconButton" alt="like"></li>
+								<li><img src="images/thumbsdown.png" class="iconButton" alt="dislike"></li>
+								<li><img src="images/comment.jpeg" class="iconButton" alt="comment"></li>
+							</ul>
+						</nav>
 					</div>
 				</div>
 			</div>
