@@ -1,44 +1,81 @@
-
 <!DOCTYPE HTML>
-<html lang="en">
+<html lang="en-us" class="nojs">
 <head>
-  <meta charset="utf-8">
-  <link rel="stylesheet" type="text/css" href="css/cssreset.css">
-  <link rel="stylesheet" type="text/css" href="css/style.css">
-  <script src="js/js.js"></script>
-  <title>News Feed</title>
+	<title> Admin Page </title>
+	<meta charset="utf-8" />
+	<meta name="viewport" content="width=device-width,initial-scale=1.0,shrink-to-fit=no" />
+	<link rel="stylesheet" type="text/css" href="css/cssreset.css">
+	<link rel="stylesheet" media="screen" href="css/style.css" />
+	<script src="js/js.js" async></script>
 </head>
 <body>
- <img class="iit-banner" src="project-2-images/iitbanner.gif" alt="IIT Banner">
-  <header>
-    <nav>
-      <div class="topnav" id="myTopnav">
-        <a href="NewPage.html" class="active">FixIIT</a>
-        <button class="logoutbutton" onclick="window.location.href='LoginPage.html'"><img src="project-2-images/iconbutton.png" class= "iconButton" alt="logout"></button>
-        <div class="dropdown">
-          <a class="menu"href="#Menu">Menu</a>
-          <button class="dropbtn" onclick="myFunction()"><a href="javascript:void(0);" class="icon" onclick="myFunction()">&#9776;</a>
-          <i class="fa fa-caret-down"></i>
-          </button>
-            <div class="dropdown-content" id="myDropdown">
-              <a href="#">user</a>
-              <a href="#">Settings</a>
-              <a href="#">Help</a>
-            </div>
-          </div>
-        </div>
-   </nav>
-  </header>
-  <div class="welcome-container">
-  <h1 class="title-h1">Vote to FixIIT</h1>
-  <div class="academicstab">
-  <p></p>
-  <div class="onestopCONT">
-    <img id="myimage" src="project-2-images/hawklogo.jpg" onmouseout="stoplogo()" onmouseover="info()" alt="IIT Logo">
-  </div>
-  <footer class="welcomepage-footer">&copy; Team 6</footer>
-</div>
+	<header>
+		<nav>
+			<div class="topnav" id="myTopnav">
+				<a href="user.html" class="active"> Home </a>
+        
+				<button class="logoutbutton" onclick="window.location.href='login.html'"><img src="project-2-images/iconbutton.png" class= "iconButton" alt="logout"></button>
+
+				<div class="dropdown">
+					<a class="menu" href="#Menu"> Menu </a>
+					<button class="dropbtn" onclick="myFunction()">
+						<a href="javascript:void(0);" class="icon" onclick="myFunction()">&#9776;</a>
+						<i class="fa fa-caret-down"></i>
+					</button>
+				
+					<div class="dropdown-content" id="myDropdown">
+						<a href="#">Admin</a>
+						<a href="#">Profile</a>
+						<a href="#">Settings</a>
+						<a href="index.html">Log out</a>
+					</div>
+				</div>
+			</div>
+		</nav>
+	</header>
+  
+	<div class="container-user">
+		<div id="userContainer">
+			<h1> FixMe IIT</h1>
+			
+			<div class="row">
+				<div class="column">
+					<div class="thumbnails-container">
+						<a target="_blank" href="images/phone.jpeg"><img src="images/phone.jpeg" alt="phone" style="width:25rem"></a>
+						<nav id="button-container">
+							<ul>
+								<li><img src="images/thumbsup.png" class="iconButton" alt="like"></li>
+								<li><img src="images/thumbsdown.png" class="iconButton" alt="dislike"></li>
+								<li><img src="images/comment.jpeg" class="iconButton" alt="comment"></li>
+							</ul>
+						</nav>
+					</div>
+				</div>
+  
+				<div class="column">
+					<div class="thumbnails-container">
+						<a target="_blank" href="images/pc.jpeg"><img src="images/pc.jpeg" alt="pc" style="width:25rem"></a>
+						<nav id="button-container">
+							<ul>
+								<li><img src="images/thumbsup.png" class="iconButton" alt="like"></li>
+								<li><img src="images/thumbsdown.png" class="iconButton" alt="dislike"></li>
+								<li><img src="images/comment.jpeg" class="iconButton" alt="comment"></li>
+							</ul>
+						</nav>
+					</div>
+				</div>
+			</div>
+		</div>
+		
+		<footer id="Footer">
+			<nav id="links">
+				<ul>
+					<li><a href="termsofuse.html">Terms of use</a></li>
+					<li><a href="contact.html">Contact</a></li>
+					<li><a href="sitemap.html">Sitemap</a></li>
+				</ul>
+			</nav>
+		</footer>
+	</div>
 </body>
 </html>
-
-
