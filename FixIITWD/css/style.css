@@ -47,6 +47,17 @@
     font-family: 'Sofia', "Arial Black", "Arial Bold", Gadget, sans-serif;
 	align-content: center;
   }
+  
+div.container-user, div#userContainer {
+	background-color: #ccc;
+}
+
+#myTopnav {
+	background-color: #8c8c8c;
+	overflow: hidden;
+	border-bottom-style: solid;
+	border-bottom-width: 8px;
+}
 
 #indexContainer, #loginContainer, #userContainer {
  text-align: center;
@@ -137,11 +148,11 @@ ul.login {
 	align-content: center;
 }
 
-#thumbnails.img {
+.thumbnails-container {
     border: 1px solid #ddd; /* Gray border */
     border-radius: 4px;  /* Rounded border */
-    padding: 5px; /* Some padding */
-    width: 150px; /* Set a small width */
+    padding: 15px; /* Some padding */
+    width: 100px; /* Set a small width */
 }
 
 /* Add a hover effect (blue shadow) */
@@ -210,6 +221,26 @@ div.column {
     background-color: #555;
 }
 
+nav#button-container {
+	text-align: center;
+}
+
+nav#button-container ul {
+	list-style-type: none;
+	display: inline-block;
+	overflow: hidden;
+}
+
+nav#button-container ul li {
+	width: 5rem;
+	float: left;
+}
+
+nav#button-container ul li a {
+	display: block;
+	width: 50px;
+	border-radius: 5px;
+}
 
 /*WELCOME PAGE CSS*//*WELCOME PAGE CSS*//*WELCOME PAGE CSS*//*WELCOME PAGE CSS*/
 .welcome-container {
@@ -219,16 +250,9 @@ div.column {
   font-family: 'Sofia', "Arial Black", "Arial Bold", Gadget, sans-serif;
 }
 
-.topnav {
-  background-color: lightgray;
-  overflow: hidden;
-}
-
-
 /* Navbar container */
 .topnav {
   overflow: hidden;
-  background-color: #333;
   font-family: Arial;
 }
 
@@ -236,7 +260,7 @@ div.column {
 .topnav a {
   float: left;
   font-size: 16px;
-  color: white;
+  color: black;
   text-align: center;
   padding: 14px 16px;
   text-decoration: none;
@@ -253,7 +277,7 @@ div.column {
   font-size: 15px; 
   border: none;
   outline: none;
-  color: white;
+  color: black;
   padding: 0;
   background-color: inherit;
   font-family: inherit; /* Important for vertical align on mobile phones */
@@ -262,11 +286,9 @@ div.column {
 
 /* Add a red background color to navbar links on hover */
 .topnav a:hover, .dropdown:hover .dropbtn {
-  background-color: red;
-
+	background-color: #ccc;
+	text-decoration: underline;
 }
-
-
 
 /* Dropdown content (hidden by default) */
 .dropdown-content {
@@ -298,14 +320,9 @@ div.column {
   display: block;
 }
 
-
-
-
 label {
   font-size: 1.728em; /*(27.648px/16px=1.728em) Minor 3rd */
 }
-
-
 
 @media screen and (max-width: 800px) {
   .topnav.responsive {position: relative;}
@@ -325,11 +342,7 @@ label {
   font-size: 4em;/*(64px/16px=4em) Minor 3rd */
 }
 
-
-
 /*WELCOME PAGE CSS*//*WELCOME PAGE CSS*//*WELCOME PAGE CSS*//*WELCOME PAGE CSS*/
-
-
 
 .welcomepage-footer {
   margin-top: 10px;
