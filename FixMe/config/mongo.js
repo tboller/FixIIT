@@ -1,0 +1,1 @@
+module.exports = { database : 'mongodb://admin:fixmeiit2018@ds133796.mlab.com:33796/fixmeiit', secret : 'secret' };
