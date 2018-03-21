@@ -85,10 +85,30 @@ Github is used as our version control to store our documentation, artifacts, cod
 
 ## 6.Trello and Github boards to goal mapping
 
-1. In this task our goal was to retrieve our RSA Keys from github and have them automated onto the server. 
+1. In this task our goal was to retrieve our RSA Keys from github and have them automated onto the server. This will allow team members to access files needed for development. 
 
-![RSA](Images/RSA.PNG "RSA2")
+![RSA-key](Images/RSA-key.png "RSA1")
+![RSA](Images/RSA.PNG "RSA1")
 ![RSA2](Images/RSA2.PNG "RSA2")
+![RSA-packershellscript](Images/RSA-packershellscript.png "RSA3")
+![RSA-shellscript](Images/RSA-shellscript.png "RSA4")
+![RSA-postshellscript](Images/RSA-postshellscript.png "RSA4")
+
+2. 
+
+![Nginx-trello](Images/Nginx-trello.PNG "Trello Nginx")
+![nginx-install](Images/nginx-install.PNG"")
+![nginx-configfile](Images/nginx-configfile "nginx configfile")
+![nginx-status](Images/nginx-status.png "nginx status")
+
+
+3. 
+
+![npm-trello](Images/npm-trello.PNG "npm trello")
+![npm-build](Images/npm-build.PNG "npm build")
+![npm-run](Images/npm-run.png "npm run")
+![npm-accessed](Images/npm-accessed.png "npm accessed")
+
 
 ## 7.What has been learned and new plans/techniques will be implemented in the remaining sprints
 
