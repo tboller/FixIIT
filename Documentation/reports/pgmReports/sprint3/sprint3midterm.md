@@ -88,25 +88,37 @@ Github is used as our version control to store our documentation, artifacts, cod
 1. In this task our goal was to retrieve our RSA Keys from github and have them automated onto the server. This will allow team members to access files needed for development. 
 
 ![RSA-key](Images/RSA-key.png "RSA1")
-![RSA](Images/RSA.PNG "RSA1")
-![RSA2](Images/RSA2.PNG "RSA2")
-![RSA-packershellscript](Images/RSA-packershellscript.png "RSA3")
-![RSA-shellscript](Images/RSA-shellscript.png "RSA4")
-![RSA-postshellscript](Images/RSA-postshellscript.png "RSA4")
+
+![RSA](Images/RSA.PNG "RSA2")
+
+![RSA2](Images/RSA2.PNG "RSA3")
+
+![RSA-packershellscript](Images/RSA-packershellscript.png "RSA4")
+
+![RSA-shellscript](Images/RSA-shellscript.png "RSA5")
+
+![RSA-postshellscript](Images/RSA-postshellscript.png "RSA6")
+
 
 2. 
 
 ![Nginx-trello](Images/Nginx-trello.PNG "Trello Nginx")
-![nginx-install](Images/nginx-install.PNG"")
-![nginx-configfile](Images/nginx-configfile "nginx configfile")
+
+![nginx-install](Images/nginx-install.PNG "nginx install")
+
+![nginx-configfile](Images/nginx-configfile.PNG "nginx configfile")
+
 ![nginx-status](Images/nginx-status.png "nginx status")
 
 
 3. 
 
 ![npm-trello](Images/npm-trello.PNG "npm trello")
+
 ![npm-build](Images/npm-build.PNG "npm build")
+
 ![npm-run](Images/npm-run.png "npm run")
+
 ![npm-accessed](Images/npm-accessed.png "npm accessed")
 
 
