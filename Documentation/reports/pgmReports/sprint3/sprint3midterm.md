@@ -35,7 +35,7 @@ The goals were chosen to improve our webpage to make it more secure and user fri
 
 1. **Language and framework**
 
- We chose to use Node js, Angular, Linux, MangoDB.
+We chose to use Node js, Angular, Linux, MangoDB.
 
 2. **Operating System Platform** 
 
@@ -87,8 +87,8 @@ Github is used as our version control to store our documentation, artifacts, cod
 
 1. In this task our goal was to retrieve our RSA Keys from github and have them automated onto the server. 
 
-![RSA KEYS](Images/RSA.png "RSA Keys")
-![RSA KEYS](Images/RSA2.png "RSA Keys")
+![RSA](Images/RSA.PNG "RSA2")
+![RSA2](Images/RSA2.PNG "RSA2")
 
 ## 7.What has been learned and new plans/techniques will be implemented in the remaining sprints
 
