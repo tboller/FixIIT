@@ -91,3 +91,22 @@ pwsh
 
 #make vagrant user the owner of the cloned git repository
 sudo chown -R vagrant:vagrant ~/2018-itmt430-6
+
+# Install nodejs dependencies
+sudo npm install --unsafe-perm -g @angular/cli
+
+cd /
+
+cd /home/vagrant/2018-itmt430-6/FixMe
+
+npm install
+
+cd /
+
+cd /home/vagrant/2018-itmt430-6/FixMe/angular-app
+
+npm install
+
+ng build
+
+cd ..
