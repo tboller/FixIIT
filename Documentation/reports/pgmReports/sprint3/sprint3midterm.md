@@ -92,69 +92,69 @@ Test users were created by using Postman to make requests to the API.
 
 1. In this task our goal was to retrieve our RSA Keys from github and have them automated onto the server. This will allow team members to access files needed for development. 
 
-**Trello Task**
+###**Trello Task**###
 
 ![RSA](Images/RSA.PNG "RSA2")
 
-**Private Key**
+###**Private Key**###
 
 ![RSA-key](Images/RSA-key.png "RSA1")
 
-**GitHub Keys**
+###**GitHub Keys**###
 
 ![RSA2](Images/RSA2.PNG "RSA3")
 
-**Pakcer json file running shell script to automate Github Repo Cloning**
+###**Pakcer json file running shell script to automate Github Repo Cloning**###
 
 ![RSA-packershellscript](Images/RSA-packershellscript.png "RSA4")
 
-**Shell Script to clone Repo** 
+###**Shell Script to clone Repo**### 
 
 ![RSA-shellscript](Images/RSA-shellscript.png "RSA5")
 
-**Make Vagrant user the owner of the cloned git repository**
+###**Make Vagrant user the owner of the cloned git repository**###
 
 ![RSA-postshellscript](Images/RSA-postshellscript.png "RSA6")
 
 
 2. We have created a packer file to automate building our nginx load balancer. This load balancer is being used to ensure both webservers are being equally used, also if one server fails our website will still function. 
 
-**Trello Task**
+###**Trello Task**###
 
 ![Nginx-trello](Images/Nginx-trello.PNG "Trello Nginx")
 
-**Automated install of Nginx load balancer**
+###**Automated install of Nginx load balancer**###
 
 ![nginx-install](Images/nginx-install.PNG "nginx install")
 
-**To forward Nginx traffic to the correct IP address**
+###**To forward Nginx traffic to the correct IP address**###
 
 ![nginx-configfile](Images/nginx-configfile.PNG "nginx configfile")
 
-**Displaying status of Nginx server**
+###**Displaying status of Nginx server**###
 
 ![nginx-status](Images/nginx-status.png "nginx status")
 
 
 3. In this Trello task we are automating the building dependencies of nodejs and making sure it runs. 
 
-**Trello Task**
+###**Trello Task**###
 
 ![npm-trello](Images/npm-trello.PNG "npm trello")
 
-**Automated installation of nodejs depenedencies**
+###**Automated installation of nodejs depenedencies**###
 
 ![npm-build](Images/npm-build.PNG "npm build")
 
-**Starting nodejs application**
+###**Starting nodejs application**###
 
 ![npm-run](Images/npm-run.png "npm run")
 
-**Displaying our nodejs application** 
+###**Displaying our nodejs application**### 
 
 ![npm-accessed](Images/npm-accessed.png "npm accessed")
 
-**Displays user tests**
+###**Displays user tests**###
 
 ![npm-users](Images/npm-users.png "npm users")
 
