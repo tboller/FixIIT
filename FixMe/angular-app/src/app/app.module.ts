@@ -8,6 +8,8 @@ import { RegisterComponent } from './register/register.component';
 import { UserComponent } from './user/user.component';
 import { AdminComponent } from './admin/admin.component';
 import { HomeComponent } from './home/home.component';
+import { FormsModule, ReactiveFormsModule } from '@angular/forms';
+import { HttpModule } from '@angular/http';
 
 const appRoutes: Routes = [
 	{ path: '', component: HomeComponent },
@@ -29,7 +31,11 @@ const appRoutes: Routes = [
 			appRoutes,
 			{ enableTracing: true }
 		),
-    BrowserModule
+    BrowserModule,
+    FormsModule,
+    HttpModule,
+    ReactiveFormsModule
+  
   ],
   providers: [],
   bootstrap: [AppComponent]
