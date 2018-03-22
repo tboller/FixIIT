@@ -35,7 +35,7 @@ The goals were chosen to improve our webpage to make it more secure and user fri
 
 1. **Language and framework**
 
-We chose to use NodeJS, ExpressJS, Angular, Linux, MangoDB.
+We chose to use NodeJS, ExpressJS, Angular, Linux, MongoDB. These four items were chosen because together they combine as the MEAN stack. NodeJS provides backend, or server side, codeing capability. Angular provides a highly organized and extremely scalable means of front end, or client side, development. ExpressJS allows for connection between the previous two, as well as the organizational method for MVC architecture. Finally MongoDB is a document based database system. While we all were more familiar with Java application programming the MEAN stack offered us much more in capability, and also a bit of healthy challenge. 
 
 2. **Operating System Platform**
 
@@ -43,7 +43,12 @@ Our operating platform we are using is Ubuntu 16.04.3 long term support, we are 
 
 3. **Use of Data Store**
 
-Data is stored on a Mongo Database hosted on MLab.
+Data is stored on a Mongo Database hosted on MLab.  We are storing our data using MLab for three reasons. 
+ 1. Storing data on a scaleable cloud service would be ideal for a starting company.
+ 2. It seemed important to learn to use cloud services in our application.
+ 3. MLab has free hosting.
+ 
+Our images are going to be stored on AWS.  This will allow us to not go over the MLab free limit, and give us further introduction to cloud services.
 
 4. **Data encrypted at rest**
 
@@ -51,7 +56,7 @@ We have been working on implementing https protocol on our webpage. Also, we hav
 
 5. **Database makes use of master/slave replication**
 
-Database is hosted on MLab.
+Database is hosted on MLab, which offers redundancy.
 
 6. **Use of Responsive web design**
 
