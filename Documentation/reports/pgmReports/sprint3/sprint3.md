@@ -31,24 +31,23 @@ Primary goals for Third sprint
 
 
 ### Accomplishments
-This sprint our team has accomplished creating a multi-machine enviorment consisting of a load-balancer and two servers. We have created a new packer build of ubuntu that is running nginx service, which is used as a load balancer. 
+This sprint our team has accomplished creating a multi-machine enviorment consisting of a load-balancer and two servers. We have created a new packer build of ubuntu that is running nginx service, which is used as a load balancer. Working on translating html into angular componets. 
 
 
 
 ### Goals for Next Sprint
-1. 
-2. 
-3. 
+1. Https with load balancer and webservers
+2. Forward node js with load balancer
+3. From vagrant we will run a local shell script to connect to cloud database
 4.
 
 
 ## Bug Tracking
-There was an issue with the packer iso that linked to the webpage url, what happend is the software got updated and the version name changed. This issue was resolved quickly by correcting the url name to match the version. 
+There was an issue with the packer iso that linked to the webpage url, what happend is the software got updated and the version name changed. This issue was resolved quickly by correcting the url name to match the version. Angular and css code are not matching up properly. Can't get node js traffic to foward with load balancer. 
 
 
 ## Security
-Implemented a load balancer, which helps secure our web servers. 
-
+Implemented a load balancer, which helps secure our web servers. Also, we have automated authenticating to a cloud MangoDB server. 
 
 ## Team Comments
 
