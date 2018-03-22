@@ -71,7 +71,7 @@ Our Dev environment includes the using the tooling of packer and vagrant and Git
 
 10. **Layout and Design**
 
- Our team has constructed and created a simple design that
+ Our team has created a simple mobile and user friendly site that allows users to log into their account and post pictures that others can vote or comment on. Also, we will implement an administrator page that lets users edit or remove posts. 
 
 11. **Management of Visio**
 
