@@ -69,6 +69,8 @@ During the third sprint I was managing the group by making goals that we could m
 ### Developers
 Matteo Giaimo
 
+For sprint 3 my main task was to create a multi machine envirornment. The first step I took was to create a new packer build to automate creating a ubuntu virtual machine image running nginx, this new packer build will be used as a load balancer that will forward traffic to our upstream web servers. The multi machince environment consists of 1 load balancer and 2 identical web servers. I then had to modify our machines vagrant file to open the correct ports and assign static ip addresses. I also worked on adding to our post installation script to automatically build the nodejs depdencies needed in order to start the service.
+
 ### Jr. Developer
 Leydi Suriano
 
