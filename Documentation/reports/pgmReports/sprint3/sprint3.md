@@ -77,6 +77,7 @@ During this third Sprint I functioned as the Jr. Developer. I was responsible fo
 
 ### IT Operations
 Thomas Boller
+During this third Sprint I was in the role of IT Operations. During this sprint I have been attempting to transfer our HTML and CSS designed website into Angular 5 components.  This needs to be done in order to have a fully coordinated front and backend. As part of this I worked with the HTML and CSS code provided by Leydi and Vince and also the Node backend code provided by Emmanuel. 
 
 ### UI/UX Developer
 Emmanuel Zambrano
