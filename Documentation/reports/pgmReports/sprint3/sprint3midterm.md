@@ -1,6 +1,6 @@
-# Midterm Report
+# Midterm Report 
 
-## 1.Team member Introduction
+## 1.Team member Introduction 
 Vince Giaimo
 
 Matteo Giaimo
@@ -13,11 +13,11 @@ Leydi Suriano
 
 ## 2.Introduce project concept, the project name and what the expected project scope
 
-The concept of our project is to create a web application that allows users to post and share pictures and vote on items they would like to fix on the IIT Campus. The name of our project is FixIIT and what we expect to deliver as our finished project is an application that is like a social media application, which allows users to create accounts, login, upload, vote, and manage content.
+The concept of our project is to create a web application that allows users to post and share pictures and vote on items they would like to fix on the IIT Campus. The name of our project is FixIIT and what we expect to deliver as our finished project is an application that is like a social media application, which allows users to create accounts, login, upload, vote, and manage content. 
 
 ## 3.Introduce Industry Competitors
 
-The industry competitors our web-application competes with is Facebook and Instagram. These are social media sites that allow users to post images/content, where people can give feedback based on the content that is posted.
+The industry competitors our web-application competes with is Facebook and Instagram. These are social media sites that allow users to post images/content, where people can give feedback based on the content that is posted. 
 
 ## 4. Introduce Sprint Goals
 
@@ -25,11 +25,11 @@ Primary goals for Third sprint
 
 1. Apache2 server running https protocol for security
 2. Implement social media authentication
-3. Incorporate Mongoose ODM
-4. Get our backend and front end both running on vagrant
+3. Incorporate Mongoose ODM 
+4. Get our backend and front end both running on vagrant 
 5. add features to webpages/design
 
-The goals were chosen to improve our webpage to make it more secure and user friendly. First, we wanted to create secure webpage connection for our users, so traffic will be encrypted.
+The goals were chosen to improve our webpage to make it more secure and user friendly. First, we wanted to create secure webpage connection for our users, so traffic will be encrypted. 
 
 ## 5.Explain your progress on the 13 base project requirements
 
@@ -87,48 +87,66 @@ Github is used as our version control to store our documentation, artifacts, cod
 
 13. **Team must generate at least 15 real “test” users and proper data to test functionality of a system**
 Test users were created by using Postman to make requests to the API. 
+
 ## 6.Trello and Github boards to goal mapping
 
-1. In this task our goal was to retrieve our RSA Keys from github and have them automated onto the server. This will allow team members to access files needed for development.
+1. In this task our goal was to retrieve our RSA Keys from github and have them automated onto the server. This will allow team members to access files needed for development. 
 
-![RSA-key](Images/RSA-key.png "RSA1")
-
+Trello Task
 ![RSA](Images/RSA.PNG "RSA2")
 
+Private Key
+![RSA-key](Images/RSA-key.png "RSA1")
+
+GitHub Keys
 ![RSA2](Images/RSA2.PNG "RSA3")
 
+Pakcer json file running shell script to automate Github Repo Cloning
 ![RSA-packershellscript](Images/RSA-packershellscript.png "RSA4")
 
+Shell Script to clone Repo 
 ![RSA-shellscript](Images/RSA-shellscript.png "RSA5")
 
+Make Vagrant user the owner of the cloned git repository
 ![RSA-postshellscript](Images/RSA-postshellscript.png "RSA6")
 
 
-2.
+2. We have created a packer file to automate building our nginx load balancer. This load balancer is being used to ensure both webservers are being equally used, also if one server fails our website will still function. 
 
+Trello Task
 ![Nginx-trello](Images/Nginx-trello.PNG "Trello Nginx")
 
+Automated install of Nginx load balancer
 ![nginx-install](Images/nginx-install.PNG "nginx install")
 
+To forward Nginx traffic to the correct IP address
 ![nginx-configfile](Images/nginx-configfile.PNG "nginx configfile")
 
+Displaying status of Nginx server
 ![nginx-status](Images/nginx-status.png "nginx status")
 
 
-3.
+3. In this Trello task we are automating the building dependencies of nodejs and making sure it runs. 
 
+Trello Task
 ![npm-trello](Images/npm-trello.PNG "npm trello")
 
+Automated installation of nodejs depenedencies 
 ![npm-build](Images/npm-build.PNG "npm build")
 
+Starting nodejs application 
 ![npm-run](Images/npm-run.png "npm run")
 
+Displaying our nodejs application 
 ![npm-accessed](Images/npm-accessed.png "npm accessed")
+
+Displays user tests
+![npm-users](Images/npm-users.png "npm users")
 
 
 ## 7.What has been learned and new plans/techniques will be implemented in the remaining sprints
 
-The team has learned to carefully push and pull from GitHub and always have backup files saved before making any major changes.    
+The team has learned to carefully push and pull from GitHub and always have backup files saved before making any major changes. We have also learned that communication and team work must be in sync otherwise issue will occur. First, new plan will be to futher implement the translation of html code into angular. New technique that we will be using is to have group members test build on their end, inorder to find and reduce errors.     
 
 ## References
 
