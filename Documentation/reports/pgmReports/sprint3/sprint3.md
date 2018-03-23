@@ -39,7 +39,7 @@ This sprint our team has accomplished creating a multi-machine enviorment consis
 1. Https with load balancer and webservers
 2. Forward node js with load balancer
 3. From vagrant we will run a local shell script to connect to cloud database
-4.
+4. add features to webpages/design
 
 
 ## Bug Tracking
@@ -80,7 +80,9 @@ Thomas Boller
 During this third Sprint I was in the role of IT Operations. During this sprint I have been attempting to transfer our HTML and CSS designed website into Angular 5 components.  This needs to be done in order to have a fully coordinated front and backend. As part of this I worked with the HTML and CSS code provided by Leydi and Vince and also the Node backend code provided by Emmanuel. 
 
 ### UI/UX Developer
-Emmanuel Zambrano
+Emmanuel functioned as the UI/UX developer.
+
+For this sprint we focused on starting with the front end of the application with Angular. Many tutorials were followed and online documentation was read since everyone is new to the framework. We still have to work on it but the components were built in angular. For the next sprint we will keep working on the front end for the authentication. We will also start working on creating tickets.
 
 ## References
 

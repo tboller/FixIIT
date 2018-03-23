@@ -1,4 +1,4 @@
-# Midterm Report 
+# Midterm Report - Team 6
 
 ## 1.Team member Introduction 
 Vince Giaimo
@@ -172,6 +172,6 @@ The team has learned to carefully push and pull from GitHub and always have back
 
 - https://blog.codeship.com/packer-vagrant-tutorial/
 - Instructor Packer.io tutorial
-- The Dev Ops Handbook
+- The Dev Ops Handbook-Ch.9
 - https://nodejs.org/en/download/package-manager/
 - https://www.w3schools.com/howto/howto_css_team.asp
