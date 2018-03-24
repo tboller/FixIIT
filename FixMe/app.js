@@ -10,6 +10,7 @@ var mongoose = require('mongoose');
 var mongo = require('./config/mongo');
 
 var users = require('./routes/users');
+var tickets = require('./routes/tickets');
 
 //MONGODB and Mongoose
 mongoose.connect(mongo.database);
@@ -63,6 +64,7 @@ passport.use(new JwtStrategy(opts, function(jwt_payload, done) {
 
 // Routes
 app.use('/users', users);
+app.use('/tickets', tickets);
 
 app.get('/', (req, res) => {
   res.send('invaild endpoint');

@@ -67,7 +67,7 @@ router.post('/login', function(req, res, next) {
 
 //Profile Route
 router.get('/profile', passport.authenticate('jwt', {session:false}), function(req, res) {
-  res.send('the');
+  res.send('Logged in: true');
 });
 
 module.exports = router;
