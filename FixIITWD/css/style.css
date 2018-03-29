@@ -11,10 +11,13 @@
 /*CLEARFLOATS of the CHILDREN*/
 
 
-.iit-banner{
-  width: 100%;
-  height: 30%;
-}
+.iit{
+  background-repeat: no-repeat;
+  background-size: 100%;
+  background-attachment: fixed;
+  background-position: center; 
+
+ }
 
 .logoutbutton {
   float: right;
@@ -46,6 +49,7 @@
     padding: 20px;
     font-family: 'Sofia', "Arial Black", "Arial Bold", Gadget, sans-serif;
 	align-content: center;
+  /*padding-top: px;*/
   }
   
 div.container-user, div#userContainer {
@@ -67,6 +71,7 @@ div.container-user, div#userContainer {
  padding: 0px;
  border-style: solid;
  align-content: center;
+ opacity: 1;
 }
 
 fieldset#Title, fieldset#Info {
