@@ -154,10 +154,12 @@ ul.login {
 }
 
 .thumbnails-container {
-    border: 1px solid #ddd; /* Gray border */
+    border: 1px solid Black; /* Gray border */
     border-radius: 4px;  /* Rounded border */
     padding: 15px; /* Some padding */
     width: 100px; /* Set a small width */
+    background-color: #8c8c8c;
+
 }
 
 /* Add a hover effect (blue shadow) */
@@ -193,7 +195,7 @@ div.column {
 
 /* Add some shadows to create a card effect */
 .thumbnails-container {
-    box-shadow: 0 4px 5px 0 rgba(0, 0, 0, 0.2);
+  box-shadow: 0 4px 5px 0 rgba(0, 0, 0, 0.2);
 	width: 100%;
 	align-content: center;
 }
