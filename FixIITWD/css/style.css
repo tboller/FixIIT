@@ -44,16 +44,66 @@
   border-left-style: solid;
 }
 
-.container-index, .container-login, .container-user {
-    border-radius: 5px;
-    padding: 20px;
+.container-index, .container-login{
+    border-radius:5px;
+    padding: 100px;
     font-family: 'Sofia', "Arial Black", "Arial Bold", Gadget, sans-serif;
 	align-content: center;
+  opacity: .9;
   /*padding-top: px;*/
   }
   
-div.container-user, div#userContainer {
+.TermsContainer-pg{
+  border-radius: 5px;
+  padding: 50px;
+  font-family: 'Sofia', "Arial Black", "Arial Bold", Gadget, sans-serif;
+  content: center;
+  max-width: 1200px;
+  margin: 0 auto;
+}
+
+
+#TermsContainer-F{
+ text-align: center;
+ background-color: #8c8c8c;
+ font-size: 20px;
+ font-weight: bold;
+ padding: 0px;
+ border-style: solid;
+}
+
+
+#TermsInfo{
+  background-color: #8c8c8c;
+  padding: 40px;
+  border-style: solid;
+  border-width: 8px;
+  content: center;
+  text-align: center;
+
+}
+
+.scrollbox{
+text-align: center;
+height:500px;
+width:600px;
+border:1px solid #8c8c8c;
+font:16px/26px Georgia, Garamond, Serif;
+overflow:auto;
+margin:0 auto;
+
+
+}
+
+div.container-user, div#userContainer, .test1 {
 	background-color: #ccc;
+}
+
+.container-user{
+border-radius:5px;
+padding: 100px;
+font-family: 'Sofia', "Arial Black", "Arial Bold", Gadget, sans-serif;
+align-content: center;
 }
 
 #myTopnav {
@@ -63,20 +113,21 @@ div.container-user, div#userContainer {
 	border-bottom-width: 8px;
 }
 
-#indexContainer, #loginContainer, #userContainer {
+#indexContainer, #loginContainer, #userContainer{
  text-align: center;
- background-color: white;
+ background-color: #ccc;
  font-size: 20px;
  font-weight: bold;
  padding: 0px;
  border-style: solid;
  align-content: center;
- opacity: 1;
 }
+
+
 
 fieldset#Title, fieldset#Info {
   background-color: #ccc;
-  padding: 0;
+  padding: 20px;
   border-style: solid;
   border-width: 8px;
   align-content: center;
@@ -230,6 +281,7 @@ div.column {
 
 nav#button-container {
 	text-align: center;
+  padding-top: 40px;
 }
 
 nav#button-container ul {
