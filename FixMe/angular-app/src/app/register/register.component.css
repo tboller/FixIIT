@@ -1,0 +1,15 @@
+
+.regForm {
+    display: inline-block;
+    margin-left: auto;
+    margin-right: auto;
+    text-align: center;
+    
+}
+.form-group, ul{
+
+    list-style-type: none;
+	display: inline-block;
+	overflow: hidden;
+
+}
