@@ -19,11 +19,15 @@
     "mongoose": "^5.0.4",
     "morgan": "^1.9.0",
     "nodemon": "^1.14.11",
+    "npm": "^5.8.0",
     "passport": "^0.4.0",
     "passport-http": "^0.3.0",
     "passport-jwt": "^3.0.1",
     "rxjs": "^5.5.6",
     "serve-favicon": "^2.4.5",
     "zone.js": "^0.8.19"
+  },
+  "devDependencies": {
+    "@angular/cli": "^1.7.4"
   }
 }

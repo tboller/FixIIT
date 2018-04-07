@@ -1,15 +1,84 @@
 
-.regForm {
-    display: inline-block;
-    margin-left: auto;
-    margin-right: auto;
+form#loginContainer {
     text-align: center;
-    
+    background-color: #ccc;
+    font-size: 20px;
+    font-weight: bold;
+    padding: 0px;
+    border-style: solid;
+    align-content: center;
+    margin: auto;
+	max-width: 40em;
 }
-.form-group, ul{
-
+div.form-group, ul{
     list-style-type: none;
 	display: inline-block;
-	overflow: hidden;
+    overflow: hidden;
+    padding: 0px;
+    align-content: center;
+    text-align: center;
+    margin: 0px;
+}
 
+li{
+    margin: 5px;
+}
+
+div.container-login{
+    text-align: center;
+    border-radius:5px;
+    padding: 100px;
+    font-family: 'Sofia', "Arial Black", "Arial Bold", Gadget, sans-serif;
+	align-content: center;
+    opacity: .9;
+}
+
+fieldset#Info{
+    background-color: #ccc;
+    padding: 20px;
+    border-style: solid;
+    border-width: 8px;
+    align-content: center;
+}
+
+#Footer {
+    background-color: #ccc;
+    margin: 0;
+    padding: 0;
+    border-top-style: solid;
+    border-top-width: 8px;
+  }
+
+  nav#links {
+	text-align: center;
+	background-color: #cccccc;
+}
+
+nav#links ul {
+	list-style-type: none;
+	display: inline-block;
+	padding: 10px;
+	margin: 10px;
+	overflow: hidden;
+}
+
+nav#links ul li {
+	width: auto;
+	float: left;
+}
+
+nav#links ul li a {
+	display: block;
+	color: black;
+	font-weight: bold;
+	text-decoration: none;
+	text-align: center;
+	width: 150px;
+	padding: 10px 20px 10px 20px;
+	border-radius: 15px;
+}
+
+nav#links ul li a:hover {
+	background-color: #8c8c8c;
+	text-decoration: underline;
 }
