@@ -1,3 +1,49 @@
-<p>
-  login works!
-</p>
+<html lang="en-us" class="nojs">
+<head>
+	<title> FixMe IIT - Login </title>
+	<meta charset="utf-8" />
+	<meta name="viewport" content="width=device-width,initial-scale=1.0,shrink-to-fit=no" />
+</head>
+<body class="iit" background="images\IIT.jpg"> 
+	<div class="container-login">
+		<form id="loginContainer" method="get" autocomplete="on" action="user.html">
+			<fieldset id="Info">
+				<h1> FixMe IIT</h1>
+				<ul class="login">			
+					<li id="username">
+						<label>Username </label>
+					</li>
+					<li>
+						<input type="text" style="height: 20px" name="username" id="user" required />
+					</li>
+					<li id="password">
+						<label>Password </label>
+					</li>
+					<li>
+						<input type="password" style="height: 20px" name="password" id="passw" required />
+					</li>
+          <li>
+            <button  class="btn.btn-primary" type="submit" name="login" value="Login"
+            style="width: 96px; height: 35px; margin-top: 15px">Login
+            </button>
+          </li>
+					<li id="help">
+            <button onclick="helpfunction()" class="link-text" 
+              style="width: 125px; height: 35px; margin-top: 15px">Trouble loggin in?
+            </button>
+					</li>	
+				</ul>
+				<footer id="Footer">
+					<nav id="links">
+						<ul>
+							<li><a href="termsofuse.html">Terms of use</a></li>
+							<li><a href="contact.html">Contact</a></li>
+							<li><a href="sitemap.html">Sitemap</a></li>
+						</ul>
+					</nav>
+				</footer>
+			</fieldset>			
+		</form>
+	</div>
+</body>
+</html>
