@@ -101,7 +101,7 @@ div.container-user, div#userContainer, .test1 {
 
 .container-user{
 border-radius:5px;
-padding: 100px;
+padding: 1em;
 font-family: 'Sofia', "Arial Black", "Arial Bold", Gadget, sans-serif;
 align-content: center;
 }
