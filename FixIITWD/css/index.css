@@ -75,8 +75,10 @@ nav#links ul li a:hover {
 	text-decoration: underline;
 }
 
-p#aboutus {
-	padding: 10px;
+p.aboutus {
+	padding-bottom: 0px;
+	padding-left: 10px;
+	padding-right : 10px;
 	margin: 10px;
 }
 
