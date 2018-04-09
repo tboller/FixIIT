@@ -14,7 +14,9 @@ import { HttpModule } from '@angular/http';
 const appRoutes: Routes = [
 	{ path: '', component: HomeComponent },
 	{ path: 'login', component: LoginComponent },
-	{ path: 'register', component: RegisterComponent }
+  { path: 'register', component: RegisterComponent },
+  { path: 'user', component: UserComponent },
+  { path: 'admin', component: AdminComponent }
 ]
 
 @NgModule({
