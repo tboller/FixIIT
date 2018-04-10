@@ -15,6 +15,7 @@ import { ContactComponent } from './contact/contact.component';
 import { SitemapComponent } from './sitemap/sitemap.component';
 
 import {ValidateService} from './services/validate.service';
+import {AuthService} from './auth/auth.service';
 import {FlashMessagesModule} from 'angular2-flash-messages';
 
 const appRoutes: Routes = [
@@ -52,7 +53,7 @@ const appRoutes: Routes = [
     FlashMessagesModule.forRoot(),
   
   ],
-  providers: [ValidateService],
+  providers: [ValidateService, AuthService, ],
   bootstrap: [AppComponent]
 })
 export class AppModule { }

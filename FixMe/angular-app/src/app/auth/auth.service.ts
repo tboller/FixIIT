@@ -1,6 +1,5 @@
 import { Injectable } from "@angular/core";
-import { Http } from "@angular/http";
-import {Headers} from '@angular/http';
+import {Http, Headers} from '@angular/http';
 import 'rxjs/add/operator/map';
 
 import { User } from "./user.model";
@@ -12,8 +11,14 @@ export class AuthService {
     
     constructor(private http: Http) {}
 
-    register(user: User) {
-        
-    }
+   // register(user: User) {        
+   // }
+
+    registerUser(user){
+        let headers = new Headers();
+        headers.append('Content-Type','application/json');
+        return this.http.post('http://localhost:3000/users/register', user,{headers: headers})
+          .map(res => res.json());
+      }
 
 }
