@@ -1,6 +1,8 @@
 import { Component, OnInit } from "@angular/core";
-import { FormGroup, FormControl, Validators } from "@angular/forms";
 import { User } from '../auth/user.model';
+import {ValidateService} from '../services/validate.service'
+import {FlashMessagesService} from 'angular2-flash-messages';
+
 
 @Component({
   selector: 'app-register',
@@ -8,26 +10,35 @@ import { User } from '../auth/user.model';
   styleUrls: ['./register.component.css']
 })
 export class RegisterComponent implements OnInit {
-  myForm: FormGroup;
 
+    name: String;
+    username: String;
+    email: String;
+    password: String;
 
-  constructor() { }
-
-  onSubmit() {
-console.log(this.myForm);
-
-}
+  constructor(private validateService: ValidateService, private flashMessage:FlashMessagesService) { }
 
     ngOnInit() {
-        this.myForm = new FormGroup({
-            name: new FormControl(null, Validators.required),
-            username: new FormControl(null, Validators.required),
-            email: new FormControl(null, [
-                Validators.required,
-                Validators.pattern("[a-z0-9!#$%&'*+/=?^_`{|}~-]+(?:\.[a-z0-9!#$%&'*+/=?^_`{|}~-]+)*@(?:[a-z0-9](?:[a-z0-9-]*[a-z0-9])?\.)+[a-z0-9](?:[a-z0-9-]*[a-z0-9])?")
-            ]),
-            password: new FormControl(null, Validators.required)
-        });
     } 
 
+    onRegisterSubmit(){
+        const user = {
+            name: this.name,
+            email: this.email,
+            username: this.username,
+            password: this.password
+          }
+
+              // Required Fields
+    if(!this.validateService.validateRegister(user)){
+        this.flashMessage.show('Please fill in all fields', {cssClass: 'alert-danger', timeout: 3000});
+        return false;
+      }
+  
+      // Validate Email
+      if(!this.validateService.validateEmail(user.email)){
+        this.flashMessage.show('Please use a valid email', {cssClass: 'alert-danger', timeout: 3000});
+        return false;
+      }
+    }
 }

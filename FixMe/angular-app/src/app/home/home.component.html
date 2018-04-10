@@ -8,7 +8,7 @@
 	<div class="container-index">
 		<form id="indexContainer" method="get" autocomplete="on" action="login.html">
 			<fieldset id="Title">
-				<h1> FixMe IIT</h1>
+				<h1> FixIIT</h1>
 				<ul class="login">
 					<li id="button-login">
 						<a routerLink="/login">Login</a>
@@ -23,9 +23,9 @@
 				<footer id="Footer">
 					<nav id="links">
 						<ul>
-							<li><a href="termsofuse.html">Terms of use</a></li>
-							<li><a href="contact.html">Contact</a></li>
-							<li><a href="sitemap.html">Sitemap</a></li>
+							<li><a [routerLink]="['/terms']">Terms of Use</a></li>
+							<li><a [routerLink]="['/contact']">Contact Us</a></li>
+							<li><a [routerLink]="['/sitemap']">Sitemap</a></li>
 						</ul>
 					</nav>
 				</footer>

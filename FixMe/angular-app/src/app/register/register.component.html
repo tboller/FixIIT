@@ -9,26 +9,23 @@
 		<form id="registerContainer" method="get" autocomplete="on" action="user.html">
 		    <fieldset id="Info">
                 <h1> FixMe IIT</h1>
-                <form class="regForm" [formGroup]="myForm" (ngSubmit)="onSubmit()">
+                <flash-messages></flash-messages>
+                <form class="regForm" (submit)="onRegisterSubmit()">
                     <div class="form-group">
                     <ul>
                         <li><label for="name">Name</label> </li>
-                        <li><input style="height: 20px" type="text" id="name" class="form-control"
-                            formControlName="name"> 
+                        <li><input style="height: 20px" type="text" [(ngModel)]="name" name="name" id="name"> 
                         </li>
                         <li><label for="username">Username</label></li>
-                        <li><input style="height: 20px" type="text" id="username" class="form-control"
-                            formControlName="username">
+                        <li><input style="height: 20px" type="text" [(ngModel)]="username" name="username" id="username">
                         </li>
                         <li><label for="email">Email</label></li>
                         <li>
-                            <input style="height: 20px" type="email" id="email" class="form-control"
-                            formControlName="email">
+                            <input style="height: 20px" type="text" [(ngModel)]="email" name="email" id="email">
                         </li>
                         <li><label for="password">Password</label></li>
                         <li>
-                            <input style="height: 20px" type="password" id="password" class="form-control"
-                            formControlName="password">
+                            <input style="height: 20px" type="password" [(ngModel)]="password" name="password" id="password">
                         </li>
                         <li><button class="btn.btn-primary" type="submit" 
                             style="width: 116px; height: 35px; margin-top: 15px">Submit
