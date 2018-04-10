@@ -13,8 +13,11 @@
                 <form class="regForm" (submit)="onRegisterSubmit()">
                     <div class="form-group">
                     <ul>
-                        <li><label for="name">Name</label> </li>
-                        <li><input style="height: 20px" type="text" [(ngModel)]="name" name="name" id="name"> 
+                        <li><label for="fname">First Name</label></li>
+                        <li><input style="height: 20px" type="text" [(ngModel)]="fname" name="fname" id="fname">
+                        </li>
+                        <li><label for="lname">Last Name</label></li>
+                        <li><input style="height: 20px" type="text" [(ngModel)]="lname" name="lname" id="lname">
                         </li>
                         <li><label for="username">Username</label></li>
                         <li><input style="height: 20px" type="text" [(ngModel)]="username" name="username" id="username">

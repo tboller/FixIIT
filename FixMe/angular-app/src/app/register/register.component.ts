@@ -10,7 +10,8 @@ import {FlashMessagesService} from 'angular2-flash-messages';
   styleUrls: ['./register.component.css']
 })
 export class RegisterComponent implements OnInit {
-
+    fname: string;
+    lname: string;
     name: String;
     username: String;
     email: String;
@@ -22,6 +23,8 @@ export class RegisterComponent implements OnInit {
     } 
 
     onRegisterSubmit(){
+      this.name = this.fname.concat(" " + this.lname);
+      console.log(this.name);
         const user = {
             name: this.name,
             email: this.email,
