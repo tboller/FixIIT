@@ -14,7 +14,7 @@ When you're prompted to "Enter a file in which to save the key," press Enter. Th
 
 Next it will ask you to enter a passphrase, which we will not be using so just press enter twice
 
-Now open up a windows powershell command prompt and make sure that you are in your users directory
+Now open up a windows command prompt and make sure that you are in your users directory
 
 ![ssh.2](images/ssh.2.PNG "ssh.2")
 
@@ -131,8 +131,6 @@ Copy and paste your id_rsa key into the WebserverS4 folder
 WARNING - IF BUILDING VERSION WHERE YOU NEED ISO FOLLOW STEP BELOW
 
 Copy and paste your id_rsa key and ubuntu iso into the WebserverS4 folder
-
-![8.2](images/8.2.PNG "8.2")
 
 
 ## Step 9 ##
