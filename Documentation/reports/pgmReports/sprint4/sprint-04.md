@@ -24,6 +24,7 @@ Matteo Giaimo
 3. Forward node js with load balancer.
 4. From vagrant we will run a local shell script to connect to cloud database.
 5. Add features to webpages/design.
+6. Connected Angular Front End Register page to the Database through the back end.
 
 ## Sprint Accomplishments
 
