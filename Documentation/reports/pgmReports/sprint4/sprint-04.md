@@ -27,7 +27,7 @@ Matteo Giaimo
 
 ## Sprint Accomplishments
 
-1. 
+1. Completed Register function to database using Angular Frontend
 ***********************************
 
 
