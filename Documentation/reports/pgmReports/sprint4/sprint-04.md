@@ -59,21 +59,21 @@ Leydi Suriano
 During this fourth sprint I was able to accomplish the following:
 - Applied tasks to Trello board.
 - Monitored Github.
-- Prepared team sprint report.
+- Prepared team's sprint report.
 - Followed up on team accomplishments and project progress.
-- Continue to work on the design of our angular pages.
+- Continued to work on the design of our angular pages.
 - Separated the css to have only one css file per html page.
 
 ### Developer
 Vince Giaimo
 
-- During the fourth sprint, I have continued to develop the web pages for our site. 
-- I have added a background image of the IIT campus for our index and login page, the purpose of this was to give users a feel of the location of our campus. 
-- I have modified the index and login boxes to be somewhat transparent with the background image. 
-- I have created an upload button for us to use on the backend that way users can upload their own photos of items they would like to fix. 
-- I have created a Terms of Use page and implemented a legal statement for uses to understand the Terms of using our web application that is embeded in a scroll box. 
-- I have also created a contact page that has general information about us and how users can contact us for support. 
-- I have added two photos for our user page and admin page for the purpose of giving a visial effect on how the web application will display on the endusers side. 
+- Continued to develop the web pages for our site. 
+- Added a background image of the IIT campus for our index and login page, the purpose of this was to give users a feel of the location of our campus. 
+- Modified the index and login boxes to be somewhat transparent with the background image. 
+- Created an upload button for us to use on the backend that way users can upload their own photos of items they would like to fix. 
+- Created a Terms of Use page and implemented a legal statement for uses to understand the Terms of using our web application that is embeded in a scroll box. 
+- Created a contact page that has general information about us and how users can contact us for support. 
+- Added two photos for our user page and admin page for the purpose of giving a visial effect on how the web application will display on the endusers side. 
 
 ### Jr. Developer
 Thomas Boller
@@ -81,22 +81,22 @@ Thomas Boller
 - Made minor style fixes to front end pages.
 - Connected Angular Front End Register page to the Database through the back end.
 - Started the connection to the backend from login page.
-- For this sprint I mostly focused on figuring out the connection to the back end. 
+- Mostly focused on figuring out the connection to the back end. 
 - Next sprint I will be connecting the login page, then connecting the ticketing to the back end. With those connections the main purpose of our site will be functional.
 
 ### IT Operations
 Emmanuel Zambrano
 
 - Added functionality to create, view, update, and delete tickets through the backend API. Testing was done using Postman. 
-- For this sprint we focused on setting up the main functionality of the application which is to report tickets. 
+- Focused on setting up the main functionality of the application which is to report tickets. 
 - For the next sprint we will integrate this with the front end. 
 
 ### UI/UX Developer
 Matteo Giaimo
 
 - For this sprint I was tasked with creating the readme file that would demonstrate how to build our current infrastructure. 
-- I also created a new json packer file to be able to build a server without having to use an Ubuntu ISO file. Now with this build anyone can download it as long as they have access to our github repo and also private and public keys created. 
-- For this sprint I ran across a lot of walls that I was not able to overcome. The load balancer was having a lot of errors and I also couldn't figure out how to pass nodejs traffic through it. 
+- Created a new json packer file to be able to build a server without having to use an Ubuntu ISO file. Now with this build anyone can download it as long as they have access to our github repo and also private and public keys created. 
+- Ran across a lot of walls that I was not able to overcome. The load balancer was having a lot of errors and I also couldn't figure out how to pass nodejs traffic through it. 
 - Automating the webserver to have certificates needed for the https protocol have been a big challenge as well.
 
 ## References
