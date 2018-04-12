@@ -1,0 +1,4 @@
+For this sprint i was tasked with creating the readme file that would demonstrate how to build our current infrastructure. I also created a new json packer file to be able to build a server without
+having to use a Ubuntu ISO file. Now with this build anyone can download it as long as they have access to our github repo and also private and public keys created. Also for this sprint i ran across
+a lot of walls that i was not able to overcome. The load balancer was having a lot of errors and i also couldnt figure out how to pass nodejs traffic through it. Also automating the webserver to have certificates
+needed for the https protocol have been a big challenge as well.
