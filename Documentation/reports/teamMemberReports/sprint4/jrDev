@@ -1,0 +1,11 @@
+# Junior Developer
+## Sprint 4
+
+For this sprit Thomas Boller was the Jr. Developer The following was accomplished:
+
+- Made minor style fixes to front end pages
+- Connected Angular Front End Register page to the Database through the back end.
+- Started the connection to the backend from login page.
+
+For this sprint I mostly focused on figuring out the connection to the back end. Next sprint I will be connecting the login page, then
+connecting the ticketing to the back end.  With those connections the main purpose of our site will be functional.
