@@ -13,20 +13,23 @@ import { HttpModule } from '@angular/http';
 import { TermsComponent } from './terms/terms.component';
 import { ContactComponent } from './contact/contact.component';
 import { SitemapComponent } from './sitemap/sitemap.component';
+import { ProfileComponent } from './profile/profile.component';
 
 import {ValidateService} from './services/validate.service';
 import {AuthService} from './auth/auth.service';
 import {FlashMessagesModule} from 'angular2-flash-messages';
 
+
 const appRoutes: Routes = [
 	{ path: '', component: HomeComponent },
 	{ path: 'login', component: LoginComponent },
   { path: 'register', component: RegisterComponent },
-  { path: 'user', component: UserComponent },
+  { path: 'user', component: UserComponent},
   { path: 'admin', component: AdminComponent },
   { path: 'terms', component: TermsComponent },
   { path: 'contact', component: ContactComponent },
-  { path: 'sitemap', component: SitemapComponent }
+  { path: 'sitemap', component: SitemapComponent },
+  { path:'profile', component: ProfileComponent}
 ]
 
 @NgModule({
@@ -39,7 +42,8 @@ const appRoutes: Routes = [
     HomeComponent,
     TermsComponent,
     ContactComponent,
-    SitemapComponent
+    SitemapComponent,
+    ProfileComponent
   ],
   imports: [
 		RouterModule.forRoot(

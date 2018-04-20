@@ -19,7 +19,7 @@
 					</button>
 					<div class="dropdown-content" id="myDropdown">
 						<a href="#">User</a>
-						<a href="#">Profile</a>
+						<a [routerLink]="['/profile']">Profile</a>
 						<a href="#">Settings</a>
 						<a href="home.component.html">Log out</a>
 					</div>
@@ -30,6 +30,7 @@
 	<div class="container-user">
 		<div id="userContainer">
 			<h1> FixMe IIT</h1>	
+			<flash-messages></flash-messages>
 			<div class="row">
 				<div class="column">
 					<div class="thumbnails-container">
