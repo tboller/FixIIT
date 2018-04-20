@@ -1,6 +1,7 @@
 import { Injectable } from "@angular/core";
 import {Http, Headers} from '@angular/http';
 import 'rxjs/add/operator/map';
+import { tokenNotExpired } from 'angular2-jwt';
 
 import { User } from "./user.model";
 
@@ -53,6 +54,11 @@ export class AuthService {
         this.authToken = token;
       }
 
+      loggedIn() {
+        return tokenNotExpired('id_token');
+      }
+      
+      
       //removes session info
       logout(){
         this.authToken = null;
