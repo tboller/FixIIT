@@ -38,6 +38,8 @@ testem.log
 
 */.DS_Store
 
+.DS_Store
+
 # e2e
 /e2e/*.js
 /e2e/*.map
