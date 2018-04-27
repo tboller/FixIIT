@@ -71,6 +71,11 @@
       "destination": "/home/vagrant/"     
   },
   {
+      "type": "file",
+      "source": "./mongo.js",
+      "destination": "/home/vagrant/"     
+  },
+  {
 		"type": "shell",
 	  "execute_command" : "echo 'vagrant' | {{ .Vars }} sudo -E -S sh '{{ .Path }}'", 
 		"script": "git_down.sh"

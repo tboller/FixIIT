@@ -40,6 +40,10 @@ testem.log
 
 .DS_Store
 
+#prevents the mongo creds from uploading
+mongo.js
+/FixMe/config/mongo.js
+
 # e2e
 /e2e/*.js
 /e2e/*.map
