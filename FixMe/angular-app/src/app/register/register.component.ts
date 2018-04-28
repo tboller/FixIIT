@@ -31,7 +31,6 @@ export class RegisterComponent implements OnInit {
 
     onRegisterSubmit(){
       this.name = this.fname.concat(" " + this.lname);
-      console.log(this.name);
         const user = {
             name: this.name,
             email: this.email,
@@ -55,10 +54,16 @@ export class RegisterComponent implements OnInit {
     this.authService.registerUser(user).subscribe(data => {
       if(data.success){
         this.flashMessage.show('You are now registered and can log in', {cssClass: 'alert-success', timeout: 3000});
-        //this.router.navigate(['/login']);
+        setTimeout(() => {
+         this.router.navigate(['/login']);
+         }
+         , 4000);
       } else {
         this.flashMessage.show('Something went wrong', {cssClass: 'alert-danger', timeout: 3000});
-        this.router.navigate(['/register']);
+        setTimeout(() => {
+           this.router.navigate(['/register']);
+         }
+         , 4000);
       }
     });
     }
