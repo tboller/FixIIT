@@ -87,15 +87,27 @@ Add a title for your key and then paste the copied conents of the id_rsa.pub key
 
 YOU ARE NOW DONE CREATING THE KEYS NEEDED FOR THIS BUILD.
 
-## Two Build Versions ##
+## Building Mongo.js File ##
 
-We have to seperate Json files that build a same identical server, the only differences are that one requires and ISO for ubuntu and one does not require an ISO to build the server.
+This file will allow the server to connect to our cloud database.
 
-The reason we have two versions is because it is faster to deploy our server by having the ISO locally, but we need are server to be able to be built by anyone so we also have a build that does not require and ISO
+Click on this link to get the credentails needed to access the cloud database
+https://docs.google.com/document/d/1lZLOpFBouoMXDezbpFokJKM2ZdbGCwc7DVTAI7zI2m8/edit#
 
-server build that needs an iso is 'ubuntu16043-vanilla-ISO.json'
+Now find and locate step number 4 in the google docs document.
 
-server build that does not need a iso is 'ubuntu-16044-server-NON-ISO.json'
+copy all that text that is located in the text box
+
+![m1](images/m1.PNG "m1")
+
+Now open up a text editor and paste the code inside the text editor
+
+![m2](images/m2.PNG "m2")
+
+Save the file to your desktop and name it mongo.js
+also make sure you save the file as a .js extension
+
+![m3](images/m3.PNG "m3")
 
 ## Step 1 ##
 
@@ -125,17 +137,17 @@ Open our team GitHub file directory on your local machine (Make sure you clone t
 
 Click on "PackerVagrant" then "vagrant-current-builds". Now you should see the directory with our current server builds.
 
-![5](images/5.PNG "5")
+![30](images/30.PNG "30")
 
 ## Step 6 ## 
 
-Drag and drop the WebserverS4 folder onto your desktop
+Drag and drop the WebserverS5 folder onto your desktop
 
-![6](images/6.PNG "6")
+![31](images/31.PNG "31")
 
-Here is the Contents that are within the WebserverS4 folder
+Here is the Contents that are within the WebserverS5 folder
 
-![cont](images/cont.PNG "cont")
+![32](images/32.PNG "32")
 
 
 ## Step 7 ##
@@ -147,43 +159,34 @@ Now locate your folder where you have YOUR "id_rsa" key and also ubuntu ISO (if 
 
 ## Step 8 ## 
 
-Copy and paste your id_rsa key into the WebserverS4 folder
+Copy and paste your id_rsa key into the WebserverS5 folder
 
-![8](images/8.PNG "8")
+![33](images/33.PNG "33")
 
+Now drag and drop the mongo.js file on your desktop into the
+WebserverS5 folder as well.
 
-WARNING - IF BUILDING VERSION WHERE YOU NEED ISO FOLLOW STEP BELOW
-
-Copy and paste your id_rsa key and ubuntu iso into the WebserverS4 folder
-
+![34](images/34.PNG "34")
 
 ## Step 9 ##
 
-Open up windows PowerShell and navigate to the WebserverS4 directory
+Open up windows PowerShell and navigate to the WebserverS5 directory
 
-![9](images/9.PNG "9")
+![35](images/35.PNG "35")
 
 Now list the directory with the "ls" command
 
 command: ls
 
-![9.1](images/9.1.PNG "9.1")
+![35.1](images/35.1.PNG "35.1")
 
 ## Step 10 ##
 
 We will now be using PACKER
 
-If you are building the NON-ISO-VERSION of the Webserver follow the steps below
-
 on the windows PowerShell enter the command: packer build ubuntu-16044-server-NON-ISO.json
 
-![10](images/10.PNG "10")
-
-If you are building the ISO-VERSION please follow the step below
-
-on the windows PowerShell enter the command: packer build ubuntu16043-vanilla-ISO.json
-
-![10.1](images/10.1.PNG "10.1")
+![36](images/36.PNG "36")
 
 You should now see that packer will open up your virtual machine and start the configuration 
 (PACKER GHOST)
@@ -194,35 +197,35 @@ Leave everything alone and be patient, packer will close the virtual box by its 
 
 ## Step 11 ##
 
-Packer will create a folder named "build" and within that file will be are ubuntu box file 
+Packer will create a folder named "build" and within that file will be the box file
 
 ![11](images/11.PNG "11")
 
-![11.1](images/11.1.PNG "11.1")
+![37](images/37.PNG "37")
 
-Now go back to your windows power shell and make sure you are still in the WebserverS4 directory. 
+Now go back to your windows power shell and make sure you are still in the WebserverS5 directory. 
 Then copy the text exactly how I do it, highlight it and then press Ctrl + c
 
-![11.2](images/11.2.PNG "11.2")
+![38](images/38.PNG "38")
 
-Then on the command line type: vagrant box add  --name webserverS4
+Then on the command line type: vagrant box add  --name webserverS5
 
-![11.3](images/11.3.PNG "11.3")
+![39](images/39.PNG "39")
 
 you will now copy and paste your box file address in between add & --name
 
-![11.4](images/11.4.PNG "11.4")
+![40](images/40PNG "40")
 
 now press enter
 
 
 ## Step 12 ## 
 
-On windows power shell make sure you are still in the WebserverS4 directory.
+On windows power shell make sure you are still in the WebserverS5 directory.
 
 Now on the windows PowerShell command line type: vagrant up
 
-![12](images/12.PNG "12")
+![41](images/41.PNG "41")
 
 ## Step 13 ## 
 
@@ -230,58 +233,38 @@ Our vagrant box is now up, we now need to ssh into our VirtualBox
 
 command: vagrant ssh
 
-![13](images/13.PNG "13")
+![42](images/42.PNG "42")
 
 ## Step 14 ##
 
 Since this build is meant to be deployed in any environment i have setup the vagrant file to automaticaly bridge to the network and get an address assigned via DHCP.
 
-Now on the ssh terminal of webserverS4 type in the command: ifconfig
+Look at the ipv4 address for interface enp0s8, that is the ip address we will be using to access our webserver
 
-![14.](images/14.PNG "14")
+![43](images/43.PNG "43")
 
-Look at the ipv4 address for interface enp0s8, that is the ip address we will be using to access our webserver. 
-
-![14.1](images/14.1.PNG "14.1")
 
 ## Step 15 ##
 
-We will now start our angualr application for our webserverS4
+Accessing our webserverS5
 
-From our webserverS4 home directory change directory to the following 
-
-cd 2018-itmt430-6/FixMe/
-
-![15](images/15.PNG "15")
-
-then verify you are in the right directory with the following command: pwd
-
-![15.1](images/15.1.PNG "15.1")
-
-Now start the angualr app with command: npm start 
-
-![15.2](images/15.2.PNG "15.2")
-
-
-## Step 16 ##
-
-Accessing our webserverS4 html pages through port 80.
+ html pages through port 80
 
 Open any brower and type in the ip address of your webserver into the browser's url and press enter
 
-![16](images/16.PNG "16")
+![44](images/44.PNG "44")
 
-![16.1](images/16.1.PNG "16.1")
+![45](images/45.PNG "45")
 
-## Step 17 ##
+## Step 16 ##
 
-Accessing our webserverS4 angular app through port 3000
+Accessing our webserverS5 angular app through port 3000
 
 Open any brower and type in the ip address of your webserver and at the end of that add a colon and port 3000 into the browser's url and press enter
 
-![17](images/17.PNG "17")
+![46](images/46.PNG "46")
 
-![17.1](images/17.1.PNG "17.1")
+![47](images/47.PNG "47")
 
 ## Power Down Vagrant Box ##
 
@@ -306,6 +289,3 @@ When new configs are made to our server and we need to do this rebuilding proces
 
 
 ### Guide Written by Matteo Giaimo ###
-
-
-
