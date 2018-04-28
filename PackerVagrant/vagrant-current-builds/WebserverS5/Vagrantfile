@@ -13,8 +13,8 @@ Vagrant.configure("2") do |config|
   # Every Vagrant development environment requires a box. You can search for
   # boxes at https://vagrantcloud.com/search.
   
-  config.vm.box = "webserverS4"
-  config.vm.hostname = "webserverS4"
+  config.vm.box = "webserverS5"
+  config.vm.hostname = "webserverS5"
   config.vm.network "public_network"
   config.vm.network "forwarded_port", guest: 80, host: 8082
   config.vm.network "forwarded_port", guest: 3000, host: 3003

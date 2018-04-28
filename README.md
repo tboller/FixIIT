@@ -147,7 +147,7 @@ Drag and drop the WebserverS5 folder onto your desktop
 
 Here is the Contents that are within the WebserverS5 folder
 
-![32](images/32.PNG "32")
+![32.2](images/32.2.PNG "32.2")
 
 
 ## Step 7 ##
@@ -161,12 +161,12 @@ Now locate your folder where you have YOUR "id_rsa" key and also ubuntu ISO (if 
 
 Copy and paste your id_rsa key into the WebserverS5 folder
 
-![33](images/33.PNG "33")
+![33.2](images/33.2.PNG "33.2")
 
 Now drag and drop the mongo.js file on your desktop into the
 WebserverS5 folder as well.
 
-![34](images/34.PNG "34")
+![34.2](images/34.2.PNG "34.2")
 
 ## Step 9 ##
 
@@ -178,7 +178,7 @@ Now list the directory with the "ls" command
 
 command: ls
 
-![35.1](images/35.1.PNG "35.1")
+![35.2](images/35.2.PNG "35.2")
 
 ## Step 10 ##
 
@@ -214,7 +214,7 @@ Then on the command line type: vagrant box add  --name webserverS5
 
 you will now copy and paste your box file address in between add & --name
 
-![40](images/40PNG "40")
+![40](images/40.PNG "40")
 
 now press enter
 
@@ -238,6 +238,10 @@ command: vagrant ssh
 ## Step 14 ##
 
 Since this build is meant to be deployed in any environment i have setup the vagrant file to automaticaly bridge to the network and get an address assigned via DHCP.
+
+on the command line type: sudo bash startup.sh
+
+![ba](images/ba.PNG "ba")
 
 Look at the ipv4 address for interface enp0s8, that is the ip address we will be using to access our webserver
 
