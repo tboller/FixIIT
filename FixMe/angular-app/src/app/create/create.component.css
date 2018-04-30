@@ -1,0 +1,9 @@
+button, input, textarea, label{
+  width: 100%;
+  margin: 0;
+  box-sizing: border-box;
+}
+textarea{
+  resize: none;
+  height: 200px;
+}

@@ -1,3 +1,14 @@
-<p>
-  create works!
-</p>
+<h1>FixMe ITT</h1>
+<h2>New Ticket</h2>
+<flash-messages></flash-messages>
+<form (submit)="onCreateSubmit()" >
+  <fieldset>
+    <label>Title</label>
+    <input type="text" [(ngModel)]="title" name="title" required />
+    <label>Description</label>
+    <input type="text" [(ngModel)]="description" name="description" required />
+    <button  class="btn.btn-primary" type="submit" name="create"
+    style="width: 96px; height: 35px; margin-top: 15px">Create Ticket
+    </button>
+  </fieldset>
+</form>
