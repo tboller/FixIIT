@@ -32,7 +32,8 @@ const appRoutes: Routes = [
   { path: 'terms', component: TermsComponent },
   { path: 'contact', component: ContactComponent },
   { path: 'sitemap', component: SitemapComponent },
-  { path:'profile', component: ProfileComponent, canActivate:[AuthGuard]}
+  { path:'profile', component: ProfileComponent, canActivate:[AuthGuard]},
+	{ path:'create', component: CreateComponent, canActivate:[AuthGuard]}
 ]
 
 @NgModule({
@@ -47,7 +48,6 @@ const appRoutes: Routes = [
     ContactComponent,
     SitemapComponent,
     ProfileComponent,
-    TicketComponent,
     CreateComponent
   ],
   imports: [
