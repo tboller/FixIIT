@@ -1,7 +1,7 @@
 import { BrowserModule } from '@angular/platform-browser';
 import { NgModule } from '@angular/core';
 import { RouterModule, Routes } from '@angular/router';
-	
+
 import { AppComponent } from './app.component';
 import { LoginComponent } from './login/login.component';
 import { RegisterComponent } from './register/register.component';
@@ -19,7 +19,6 @@ import {ValidateService} from './services/validate.service';
 import {AuthService} from './auth/auth.service';
 import {FlashMessagesModule} from 'angular2-flash-messages';
 import { AuthGuard } from './guards/auth.guard';
-import { TicketComponent } from './ticket/ticket.component';
 import { TicketService } from './ticket.service';
 
 
@@ -59,7 +58,7 @@ const appRoutes: Routes = [
     HttpModule,
     ReactiveFormsModule,
     FlashMessagesModule.forRoot(),
-  
+
   ],
   providers: [ValidateService, AuthService, AuthGuard, TicketService],
   bootstrap: [AppComponent]
