@@ -33,6 +33,14 @@ router.post('/register', function(req, res, next) {
   });
 });
 
+//delete user using their id
+router.delete('/:id', function(req, res, next) {
+  User.findByIdAndRemove(req.params.id, req.body, function (err, post) {
+    if (err) return next(err);
+    res.json(post);
+  });
+});
+
 //Login Route
 router.post('/login', function(req, res, next) {
   var username = req.body.username;
