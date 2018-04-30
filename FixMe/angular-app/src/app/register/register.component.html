@@ -1,53 +1,45 @@
-<html lang="en-us" class="nojs">
-<head>
-	<title> FixMe IIT - Login </title>
-	<meta charset="utf-8" />
-	<meta name="viewport" content="width=device-width,initial-scale=1.0,shrink-to-fit=no" />
-</head>
-<body> 
-	<div class="container-register">
-		<form id="registerContainer" method="get" autocomplete="on" action="user.html">
-		    <fieldset id="Info">
-                <h1> FixMe IIT</h1>
-                <flash-messages></flash-messages>
-                <form class="regForm" (submit)="onRegisterSubmit()">
-                    <div class="form-group">
-                    <ul>
-                        <li><label for="fname">First Name</label></li>
-                        <li><input style="height: 20px" type="text" [(ngModel)]="fname" name="fname" id="fname">
-                        </li>
-                        <li><label for="lname">Last Name</label></li>
-                        <li><input style="height: 20px" type="text" [(ngModel)]="lname" name="lname" id="lname">
-                        </li>
-                        <li><label for="username">Username</label></li>
-                        <li><input style="height: 20px" type="text" [(ngModel)]="username" name="username" id="username">
-                        </li>
-                        <li><label for="email">Email</label></li>
-                        <li>
-                            <input style="height: 20px" type="text" [(ngModel)]="email" name="email" id="email">
-                        </li>
-                        <li><label for="password">Password</label></li>
-                        <li>
-                            <input style="height: 20px" type="password" [(ngModel)]="password" name="password" id="password">
-                        </li>
-                        <li><button class="btn.btn-primary" type="submit" 
-                            style="width: 116px; height: 35px; margin-top: 15px">Submit
-                            </button>
-                        </li>
-                    </ul>
-                    </div>
-                </form>
-				<footer id="Footer">
-					<nav id="links">
-						<ul>
-							<li><a href="terms.html">Terms of use</a></li>
-							<li><a href="contact.html">Contact</a></li>
-							<li><a href="sitemap.html">Sitemap</a></li>
-						</ul>
-					</nav>
-				</footer>
-			</fieldset>			
-		</form>
-	</div>
-</body>
-</html>
+
+<div class="container-register">
+	<form id="registerContainer" method="get" autocomplete="on" action="user.html">
+	    <fieldset id="Info">
+              <h1> FixMe IIT</h1>
+              <flash-messages></flash-messages>
+              <form class="regForm" (submit)="onRegisterSubmit()">
+                  <div class="form-group">
+                  <ul>
+                      <li><label for="fname">First Name</label></li>
+                      <li><input style="height: 20px" type="text" [(ngModel)]="fname" name="fname" id="fname">
+                      </li>
+                      <li><label for="lname">Last Name</label></li>
+                      <li><input style="height: 20px" type="text" [(ngModel)]="lname" name="lname" id="lname">
+                      </li>
+                      <li><label for="username">Username</label></li>
+                      <li><input style="height: 20px" type="text" [(ngModel)]="username" name="username" id="username">
+                      </li>
+                      <li><label for="email">Email</label></li>
+                      <li>
+                          <input style="height: 20px" type="text" [(ngModel)]="email" name="email" id="email">
+                      </li>
+                      <li><label for="password">Password</label></li>
+                      <li>
+                          <input style="height: 20px" type="password" [(ngModel)]="password" name="password" id="password">
+                      </li>
+                      <li><button class="btn.btn-primary" type="submit"
+                          style="width: 116px; height: 35px; margin-top: 15px">Submit
+                          </button>
+                      </li>
+                  </ul>
+                  </div>
+              </form>
+			<footer id="Footer">
+				<nav id="links">
+					<ul>
+						<li><a href="terms.html">Terms of use</a></li>
+						<li><a href="contact.html">Contact</a></li>
+						<li><a href="sitemap.html">Sitemap</a></li>
+					</ul>
+				</nav>
+			</footer>
+		</fieldset>
+	</form>
+</div>

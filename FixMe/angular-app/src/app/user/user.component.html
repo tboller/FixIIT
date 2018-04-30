@@ -1,72 +1,52 @@
-<html lang="en-us" class="nojs">
-<head>
-	<title> User Page </title>
-	<meta charset="utf-8" />
-	<meta name="viewport" content="width=device-width,initial-scale=1.0,shrink-to-fit=no" />
-</head>
-<body>
-	<header>
-		<nav>
-			<div class="topnav" id="myTopnav">
-				<a href="user.component.html" class="active"> Home </a>
-				<button class="logoutbutton" (click)="onLogoutClick()" href="#">
-					<img src="assets/images/iconbutton.png" class= "iconButton" alt="logout"></button>
-				<div class="dropdown">
-					<a class="menu" href="#Menu"> upload </a>
-					<button class="dropbtn" onclick="myFunction()">
-						<a href="javascript:void(0);" class="icon" onclick="myFunction()">&#9776;</a>
-						<i class="fa fa-caret-down"></i>
-					</button>
-					<div class="dropdown-content" id="myDropdown">
-						<a href="#">User</a>
-						<a [routerLink]="['/profile']">Profile</a>
-						<a href="#">Settings</a>
-						<a (click)="onLogoutClick()" href="#">Log out</a>
-					</div>
-				</div>
-			</div>
-		</nav>
-	</header>
-	<div class="container-user">
-		<div id="userContainer">
-			<h1> FixMe IIT</h1>	
-			<flash-messages></flash-messages>
-			<div class="row">
-				<div class="column">
-					<div class="thumbnails-container">
-						<a target="_blank" href="images/fix1.jpeg"><img src="assets/images/fix1.jpeg" alt="phone" style="width:25rem"></a>
-						<nav id="button-container">
-							<ul>
-								<li><img src="assets/images/thumbsup.png" class="iconButton" alt="like"></li>
-								<li><img src="assets/images/thumbsdown.png" class="iconButton" alt="dislike"></li>
-								<li><img src="assets/images/comment.jpeg" class="iconButton" alt="comment"></li>
-							</ul>
-						</nav>
-					</div>
-				</div>
-				<div class="column">
-					<div class="thumbnails-container">
-						<a target="_blank" href="images/fix2.jpg"><img src="assets/images/fix2.jpg" alt="pc" style="width:25rem"></a>
-						<nav id="button-container">
-							<ul>
-								<li><img src="assets/images/thumbsup.png" class="iconButton" alt="like"></li>
-								<li><img src="assets/images/thumbsdown.png" class="iconButton" alt="dislike"></li>
-								<li><img src="assets/images/comment.jpeg" class="iconButton" alt="comment"></li>
-							</ul>
-						</nav>
-					</div>
+<header>
+	<nav>
+		<div class="topnav" id="myTopnav">
+			<a href="user.component.html" class="active"> Home </a>
+			<button class="logoutbutton" (click)="onLogoutClick()" href="#">
+				<img src="assets/images/iconbutton.png" class= "iconButton" alt="logout"></button>
+			<div class="dropdown">
+				<a class="menu" href="#Menu"> upload </a>
+				<button class="dropbtn" onclick="myFunction()">
+					<a href="javascript:void(0);" class="icon" onclick="myFunction()">&#9776;</a>
+					<i class="fa fa-caret-down"></i>
+				</button>
+				<div class="dropdown-content" id="myDropdown">
+					<a href="#">User</a>
+					<a [routerLink]="['/profile']">Profile</a>
+					<a href="#">Settings</a>
+					<a (click)="onLogoutClick()" href="#">Log out</a>
 				</div>
 			</div>
 		</div>
-		<footer id="Footer">
-			<nav id="links">
-				<ul>
-					<li><a href="terms.html">Terms of use</a></li>
-					<li><a href="contact.html">Contact</a></li>
-					<li><a href="sitemap.html">Sitemap</a></li>
-				</ul>
-			</nav>
-		</footer>
+	</nav>
+</header>
+<div class="container-user">
+	<div id="userContainer">
+		<h1> FixMe IIT</h1>
+		<flash-messages></flash-messages>
+		<div class="row">
+			<div *ngFor="let ticket of tickets" class="column">
+				<div class="thumbnails-container">
+					<h2>{{ticket.title}}</h2>
+					<a target="_blank" href="images/fix1.jpeg"><img src="assets/images/fix1.jpeg" alt="phone" style="width:25rem"></a>
+					<p>{{ticket.description}}</p>
+					<nav id="button-container">
+						<ul>
+							<li><img src="assets/images/thumbsup.png" class="iconButton" alt="like"></li>
+							<li><img src="assets/images/thumbsdown.png" class="iconButton" alt="dislike"></li>
+						</ul>
+					</nav>
+				</div>
+			</div>
+		</div>
 	</div>
-</body>
-</html>
+	<footer id="Footer">
+		<nav id="links">
+			<ul>
+				<li><a href="terms.html">Terms of use</a></li>
+				<li><a href="contact.html">Contact</a></li>
+				<li><a href="sitemap.html">Sitemap</a></li>
+			</ul>
+		</nav>
+	</footer>
+</div>
