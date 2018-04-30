@@ -1,4 +1,29 @@
 # Final Report Team 6
+## Team Roles
+
+### IT Ops
+Leydi Suriano
+
+### Developer
+Thomas Boller
+
+### Jr. Developer
+Matteo Giaimo
+
+### UI/UX Developer
+Vince Giaimo
+
+### Project Manager
+Emmanuel Zambrano
+
+## Sprint 5 Accomplishments
+
+## Accomplishments for all sprints
+
+## Assessment
+
+### Features to implement
+
 
 ## 1. Language and framework
 
@@ -32,7 +57,7 @@
 
 
 
-## 9. Creation of Dev Environment 
+## 9. Creation of Dev Environment
 
 
 
@@ -49,5 +74,3 @@
 
 
 ## 13. Team must generate at least 15 real “test” user data that is inserted upon instance creation and proper data to test functionality of a system
-
-
