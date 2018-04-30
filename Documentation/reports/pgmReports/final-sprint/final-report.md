@@ -71,7 +71,8 @@ Body Content (user and admin pages):
 
 ## 11. Management of diagram tool of workflow
 
-![Workflow](2018-itmt430-6/Documentation/diagrams/Workflow.PNG "workflow")
+![Workflow](2018-itmt430-6/Documentation/diagrams/Workflow.PNG)
+![Workflow](Documentation/diagrams/Workflow.PNG)
 
 ## 12. Management of project progress
 
