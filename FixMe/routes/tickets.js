@@ -65,16 +65,8 @@ router.delete('/', function(req, res, next){
 	});
 });
 
-router.post('/like', function(req,res, next){
-	Ticket.findByIdAndUpdate(req.body.id, {$inc: {like:1}}, function (err, ticket){
-    if(err){
-      return next(err);
-    }
-    res.json(ticket);
-  });
-});
-router.post('/dislike', function(req,res, next){
-	Ticket.findByIdAndUpdate(req.body.id, {$inc: {dislike:1}}, function (err, ticket){
+router.post('/:id/like', function(req,res, next){
+	Ticket.findByIdAndUpdate(req.params.id, {$inc: {like:1}}, function (err, ticket){
     if(err){
       return next(err);
     }
