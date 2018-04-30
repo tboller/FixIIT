@@ -65,7 +65,7 @@ router.delete('/', function(req, res, next){
 	});
 });
 
-router.post('/:id/like', function(req,res, next){
+router.post('/like/:id', function(req,res, next){
 	Ticket.findByIdAndUpdate(req.params.id, {$inc: {like:1}}, function (err, ticket){
     if(err){
       return next(err);

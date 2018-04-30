@@ -28,14 +28,8 @@
 			<div *ngFor="let ticket of tickets" class="column">
 				<div class="thumbnails-container">
 					<h2>{{ticket.title}}</h2>
-					<a target="_blank" href="images/fix1.jpeg"><img src="assets/images/fix1.jpeg" alt="phone" style="width:25rem"></a>
 					<p>{{ticket.description}}</p>
-					<nav id="button-container">
-						<ul>
-							<li><img src="assets/images/thumbsup.png" class="iconButton" alt="like"></li>
-							<li><img src="assets/images/thumbsdown.png" class="iconButton" alt="dislike"></li>
-						</ul>
-					</nav>
+					<button (click)="likeTicket(ticket._id)">Like</button>
 				</div>
 			</div>
 		</div>

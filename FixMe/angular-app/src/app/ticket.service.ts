@@ -20,4 +20,11 @@ export class TicketService {
     return this.http.post('/tickets',ticket,{headers: headers})
       .map(res => res.json());
   }
+  likeTicket(ticket){
+    var path = '/tickets/like/' + ticket;
+    let headers = new Headers();
+    headers.append('Content-Type','application/json');
+    return this.http.post(path,{headers: headers})
+      .map(res => res.json());
+  }
 }

@@ -26,4 +26,14 @@ export class UserComponent implements OnInit {
     this.ticketService.getTickets()
     .subscribe(tickets => this.tickets = tickets);
   }
+  likeTicket(ticket){
+    this.ticketService.likeTicket(ticket)
+    .subscribe(ticket => {
+      if(ticket.success){
+        this.router.navigate(['user']);
+      }else{
+        this.router.navigate(['user']);
+      }
+    });
+  }
 }
