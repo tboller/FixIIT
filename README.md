@@ -260,6 +260,9 @@ Open any brower and type in the ip address of your webserver into the browser's 
 
 ![45](images/45.PNG "45")
 
+Note: Our html pages were built first due to not knowing angular, but we are transitioning
+the html code to angular
+
 ## Step 16 ##
 
 Accessing our webserverS5 angular app through port 3000
@@ -269,6 +272,8 @@ Open any brower and type in the ip address of your webserver and at the end of t
 ![46](images/46.PNG "46")
 
 ![47](images/47.PNG "47")
+
+You can now click on the register button, create an account, and log into our application with those credentails
 
 ## Power Down Vagrant Box ##
 

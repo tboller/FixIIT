@@ -1,0 +1,3 @@
+Matteo Giaimo
+
+For sprint 5 I was tasked with updating our server build and getting it ready for the final turn in. The first step I was tasked with was automating the process of the https protocol. I was not able to figure out how to automate this process. The trouble i was having was figuring out how to automatically answer the questions when you generate the certificates. The next task i was assigned was automating the process for the user to receive their ip address and start the npm process. The last task I worked on was creating a build guide for our clients or anyone else who wants to deploy our build to their own hardware. The guide is located on our team github repos landing page.
