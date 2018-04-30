@@ -5,7 +5,7 @@
 			<button class="logoutbutton" (click)="onLogoutClick()" href="#">
 				<img src="assets/images/iconbutton.png" class= "iconButton" alt="logout"></button>
 			<div class="dropdown">
-				<a class="menu" href="#Menu"> upload </a>
+				<a [routerLink]="['/create']">New Ticket</a>
 				<button class="dropbtn" onclick="myFunction()">
 					<a href="javascript:void(0);" class="icon" onclick="myFunction()">&#9776;</a>
 					<i class="fa fa-caret-down"></i>

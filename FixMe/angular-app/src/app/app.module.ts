@@ -20,6 +20,7 @@ import {AuthService} from './auth/auth.service';
 import {FlashMessagesModule} from 'angular2-flash-messages';
 import { AuthGuard } from './guards/auth.guard';
 import { TicketService } from './ticket.service';
+import { CreateComponent } from './create/create.component';
 
 
 const appRoutes: Routes = [
@@ -46,7 +47,8 @@ const appRoutes: Routes = [
     ContactComponent,
     SitemapComponent,
     ProfileComponent,
-    TicketComponent
+    TicketComponent,
+    CreateComponent
   ],
   imports: [
 		RouterModule.forRoot(
