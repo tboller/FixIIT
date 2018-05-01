@@ -19,7 +19,11 @@ first I had worked with tools such as Packer, Vagrant, and Git."
 "I have an associates degree from the College of Dupage in Computer internetworking and technology. I am also CCNA certified by Cisco, and as well have a certificate in CCNA security. The background i come from is more on the hardware and infrastructure side. I am skilled in creating networks, building servers, system administration, testing the builds, and documenting. My weakness is on the development side, i am not that creating with creating applications but i know how to get the applications run on the servers."
 
 ### Vince Giaimo
+<<<<<<< HEAD
 "I have completed an associates degree in Computer Information Technology from College of Dupage. I have completed the CCNA program and have recieved my CCNA certification. My Intrest in IT is everything, the more you know the better. I would like to learn as much as I can to make my IT skills the best they could be"
+=======
+This Sprint I have reviewed the html code that I have worked on throughout the project development to make sure there was no issues with our html pages and css pages. Then, I have reviewed the angular component code that was recoded from our html/css pages, in order to work with our background architecture. Furthermore, I have done some research to help find the solution to implement the https protocol within our web application project, after doing some research it was still a challenge for us to implement on our webpages. Overall, I think our team has done a good job on getting as much as we could accomplish for our last sprint. My background, I have completed an associates degree in Computer Information Technology from College of Dupage. I have completed the CCNA program and have recieved my CCNA certification. My Intrest in IT is everything, the more you know the better. I would like to learn as much as I can to make my IT skills the best they could be
+>>>>>>> 1c541c28559465a7a696ab1613470af9d903f313
 
 ### Emmanuel Zambrano
 "I have a specialization in Web Development. I have taken coursework in information architecture, human computer interaction, and user experience. I am interested in how information is displayed and the design process."
