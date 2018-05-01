@@ -1,3 +1,3 @@
-##Leydi Suriano's background
+## Leydi Suriano's background
 
 When it comes to IT, my background is very limited and needs lots of building. I don't have any experience developing applications. This is my first encounter to that part of the process. I am more familiar with the web design (html and css) part as I was able to learn that on previous classes. I have also learned C++, Java, SQL throughout my studies at IIT. I have never worked with Javascript previously. I don't have any real world experience with any IT stuff, only what I have learned on my own during these last couple of years. This project was the first time I actually got to see the whole process of creating and developing an application.
