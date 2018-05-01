@@ -19,39 +19,32 @@ first I had worked with tools such as Packer, Vagrant, and Git."
 "I have an associates degree from the College of Dupage in Computer internetworking and technology. I am also CCNA certified by Cisco, and as well have a certificate in CCNA security. The background i come from is more on the hardware and infrastructure side. I am skilled in creating networks, building servers, system administration, testing the builds, and documenting. My weakness is on the development side, i am not that creating with creating applications but i know how to get the applications run on the servers."
 
 ### Vince Giaimo
-This Sprint I have reviewed the html code that I have worked on throughout the project development to make sure there was no issues with our html pages and css pages. Then, I have reviewed the angular component code that was recoded from our html/css pages, in order to work with our background architecture. Furthermore, I have done some research to help find the solution to implement the https protocol within our web application project, after doing some research it was still a challenge for us to implement on our webpages. Overall, I think our team has done a good job on getting as much as we could accomplish for our last sprint. My background, I have completed an associates degree in Computer Information Technology from College of Dupage. I have completed the CCNA program and have recieved my CCNA certification. My Intrest in IT is everything, the more you know the better. I would like to learn as much as I can to make my IT skills the best they could be
+"I have completed an associates degree in Computer Information Technology from College of Dupage. I have completed the CCNA program and have recieved my CCNA certification. My Intrest in IT is everything, the more you know the better. I would like to learn as much as I can to make my IT skills the best they could be"
 
 ### Emmanuel Zambrano
 "I have a specialization in Web Development. I have taken coursework in information architecture, human computer interaction, and user experience. I am interested in how information is displayed and the design process."
 
-## Sprint 5 Accomplishments
-1. Getting front end done for creating tickets
-2. Finish voting functionality
-3. Complete Login function using Angular Frontend
-4. Finalize our webpages design
-
 ## Accomplishments for all sprints
 
-### Sprint 1 Accomplishments
+### Sprint 1: Accomplishments
 
 1. Develop the architecture for our application and the UI/UX drawings.  
 2. Create Database's main tables.
 3. Create a working packer/vagrant box for our server.
 
-### Sprint 2 Accomplishments
+### Sprint 2: Accomplishments
 
 1. Automate github repo to vagrant box using deploy keys
 4. Initial splash page upon and hello world application
 5. Getting NPM to run on Vagrant
 
-### Sprint 3 Accomplishments
+### Sprint 3: Accomplishments
 
 1. Implement JWT authentication on backend.
 2. Incorporate Mongoose ODM
 3. Get our backend and front end both running on vagrant
 
-
-### Sprint 4 Accomplishments
+### Sprint 4: Accomplishments
 
 1. Connected Angular Front End Register page to the Database through the back end.
 2. Divided our css into separate files, to make it easy for the angular frontend to implement.
@@ -60,29 +53,35 @@ This Sprint I have reviewed the html code that I have worked on throughout the p
 5. Created the ReadMe file that demonstrates how to build our current infrastructure.
 6. Created a new json packer file to be able to build a server without having to use an Ubuntu ISO file.
 
+### Sprint 5: Accomplishments
+1. Getting front end done for creating tickets
+2. Finish voting functionality
+3. Complete Login function using Angular Frontend
+4. Finalize our webpages design
+
 ## Assessment
 
 In the beginning of the semester we challenged ourselves with finishing completing the following work in each sprint:
 
-Sprint 1
+Sprint 1:
 Develop application architecture and UI/UX mappings
 Create Shell of application and Webpages (HELLO WORLD)
 Have apache web server up
 
-Sprint 2
+Sprint 2:
 User Login available
 Non user/login web page
 Initial splash page upon login
 
-Sprint 3
+Sprint 3:
 Application Function: Upload/store tickets and Images
 Application Function: View/Edit tickets and Images
 
-Sprint 4
+Sprint 4:
 Application Function: Voting process
 Application Function: Final decision news feed
 
-Sprint 5
+Sprint 5:
 Conversion of code/Android application development
 Web application user testing
 
@@ -91,7 +90,7 @@ Our team accomplished many of our goals. However, there were constraints through
 ### Features to implement
 
 Here are a few features that we would need to implement in the future in order to create a more robust application.
-1. Have more feature for admin users.
+1. Have more features for admin users.
 2. Fine tune our design.
 3. Create tests for our application.
 4. Integrate Amazon s3 for storing images.
@@ -100,11 +99,9 @@ Here are a few features that we would need to implement in the future in order t
 
 The application was built using NodeJS, ExpressJS, Angular, Linux, MongoDB. These four technologies create what is known as the MEAN stack. It is a very popular stack because it allows us to create everything from the frontend to the backend to the database with Javascript. NodeJS provides backend, or server side, coding capability. Angular provides a highly organized and extremely scalable means of front end, or client side, development. ExpressJS allows for connection between the previous two, as well as the organizational method for MVC architecture. Finally MongoDB is a document based database system. While we all were more familiar with Java application programming the MEAN stack offered us much more in capability, and also a bit of healthy challenge.
 
-
 ## 2. Operating System Platform
 
 Our operating platform we are using is Ubuntu 16.04.3 long term support, we are using this because it consumes less resources and we can create identical machine images utilizing ubuntu along with packer in doing so we are able to use version control with our operating system. There are many applications that we can download for ubuntu server, also there is a lot of available resources on the internet that we can use for reference.
-
 
 ## 3. Use of Data Store/Storage
 
@@ -129,7 +126,7 @@ Our team has implemented media queries with in our web design to make our webpag
 
 ## 7. Use of https
 
-There was many security measures that we took with our application. Some being having our passwords before storing them in the database, and not having keys on our repository. We could not get around to creating self signed certs.
+There were many security measures that we took with our application. Some being having our passwords before storing them in the database, and not having keys on our repository. We could not get around to creating self signed certs.
 
 ## 8. Use of user authentication
 
@@ -188,7 +185,7 @@ We are using Trello to manage tasks that are assigned to individual team members
 
 Our Team has made use of slack to communicate with each other and to make sure everyone is on the same on track with the project sprint. Also, we use slack to help each other resolve issue or set up meetings to discuss project details.
 
-Github is used as our version control to store our documentation, artifacts, code, configuration files etc.
+Github is used as our version control to store our documentation, artifacts, code, configuration files, etc.
 
 A we were completing our project we ran into some bugs that we reported using the github issues feature. Here are a few of those bugs:
 
