@@ -128,7 +128,7 @@ Our team has implemented media queries with in our web design to make our webpag
 
 ## Use of https
 
-
+There was many security measures that we took with our application. Some being having our passwords before storing them in the database, and not having keys on our repository. We could not get around to creating self signed certs. 
 
 ## Use of user authentication
 
