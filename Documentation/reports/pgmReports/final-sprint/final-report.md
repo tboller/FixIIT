@@ -140,13 +140,13 @@ Our Dev environment includes the using the tooling of packer and vagrant and Git
 
 ## Layout design
 
-![Server](Documentation\diagrams\server.jpg)
-![Index](Documentation\diagrams\index_page.jpg)
-![Login](Documentation\diagrams\login_page.jpg)
-![Admin](Documentation\diagrams\admin_page.jpg)
-![User](Documentation\diagrams\user_page.jpg)
+![Server](server.jpg)
+![Index](index_page.jpg)
+![Login](login_page.jpg)
+![Admin](admin_page.jpg)
+![User](user_page.jpg)
 
-###Header:
+### Header:
 •Admin and User page will have a header that includes a HOME button in the left side, along with an upload button, a dropdown MENU and a logout icon in the right side.
 •Background color:  Light grey.
 •Font-family: “Arial”.
@@ -154,24 +154,24 @@ Our Dev environment includes the using the tooling of packer and vagrant and Git
 •Font size: 16px.
 •Alignment: Center.
 
-###Footer:
+### Footer:
 •Every Page will have a footer that includes TERMS OF USE, CONTACT and SITEMAP buttons.
 •Background color:  Light grey.
 •Font-family: 'Sofia', "Arial Black", "Arial Bold", Gadget, sans-serif.
 •Font color: Black.
 •Alignment: Center.
 
-###Logo:
+### Logo:
 •Every page will have the application logo right underneath the header (except the contact, terms of use and sitemap pages).
 •The logo will be FixMe IIT.
 
-###Body Content (index and login pages):
+### Body Content (index and login pages):
 •The index and login pages will consist of buttons and input text fields.
 •Font-family: 'Sofia', "Arial Black", "Arial Bold", Gadget, sans-serif.
 •Font color: Black.
 •Alignment: Center.
 
-###Body Content (user and admin pages):
+### Body Content (user and admin pages):
 •The user and admin pages will consist of a newsfeed with a like and dislike button, along with a comment bubble icon.
 •Font-family: 'Sofia', "Arial Black", "Arial Bold", Gadget, sans-serif.
 •Font color: Black.
