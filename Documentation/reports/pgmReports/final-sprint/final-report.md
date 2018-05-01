@@ -19,6 +19,7 @@ first I had worked with tools such as Packer, Vagrant, and Git."
 "I have an associates degree from the College of Dupage in Computer internetworking and technology. I am also CCNA certified by Cisco, and as well have a certificate in CCNA security. The background i come from is more on the hardware and infrastructure side. I am skilled in creating networks, building servers, system administration, testing the builds, and documenting. My weakness is on the development side, i am not that creating with creating applications but i know how to get the applications run on the servers."
 
 ### Vince Giaimo
+"I have completed an associates degree in Computer Information Technology from College of Dupage. I have completed the CCNA program and have recieved my CCNA certification. My Intrest in IT is everything, the more you know the better. I would like to learn as much as I can to make my IT skills the best they could be"
 
 ### Emmanuel Zambrano
 "I have a specialization in Web Development. I have taken coursework in information architecture, human computer interaction, and user experience. I am interested in how information is displayed and the design process."
@@ -128,7 +129,7 @@ Our team has implemented media queries with in our web design to make our webpag
 
 ## 7. Use of https
 
-There was many security measures that we took with our application. Some being having our passwords before storing them in the database, and not having keys on our repository. We could not get around to creating self signed certs. 
+There was many security measures that we took with our application. Some being having our passwords before storing them in the database, and not having keys on our repository. We could not get around to creating self signed certs.
 
 ## 8. Use of user authentication
 
