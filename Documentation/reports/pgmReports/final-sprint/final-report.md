@@ -38,11 +38,11 @@
 
 ## 10. Layout design
 
-![Server](Documentation\diagrams\server.jpg)
-![Index](Documentation\diagrams\index_page.jpg)
-![Login](Documentation\diagrams\login_page.jpg)
-![Admin](Documentation\diagrams\admin_page.jpg)
-![User](Documentation\diagrams\user_page.jpg)
+![Server](server.jpg)
+![Index](index_page.jpg)
+![Login](login_page.jpg)
+![Admin](admin_page.jpg)
+![User](user_page.jpg)
 
 ###Header: 
 •Admin and User page will have a header that includes a HOME button in the left side, along with an upload button, a dropdown MENU and a logout icon in the right side.
