@@ -95,17 +95,17 @@ Here are a few features that we would need to implement in the future in order t
 3. Create tests for our application.
 4. Integrate Amazon s3 for storing images.
 
-## Language and framework
+## 1. Language and framework
 
 The application was built using NodeJS, ExpressJS, Angular, Linux, MongoDB. These four technologies create what is known as the MEAN stack. It is a very popular stack because it allows us to create everything from the frontend to the backend to the database with Javascript. NodeJS provides backend, or server side, coding capability. Angular provides a highly organized and extremely scalable means of front end, or client side, development. ExpressJS allows for connection between the previous two, as well as the organizational method for MVC architecture. Finally MongoDB is a document based database system. While we all were more familiar with Java application programming the MEAN stack offered us much more in capability, and also a bit of healthy challenge.
 
 
-## Operating System Platform
+## 2. Operating System Platform
 
 Our operating platform we are using is Ubuntu 16.04.3 long term support, we are using this because it consumes less resources and we can create identical machine images utilizing ubuntu along with packer in doing so we are able to use version control with our operating system. There are many applications that we can download for ubuntu server, also there is a lot of available resources on the internet that we can use for reference.
 
 
-## Use of Data Store/Storage
+## 3. Use of Data Store/Storage
 
 Data is stored on a Mongo Database hosted on MLab.  We are storing our data using MLab for three reasons.
  1. Storing data on a scaleable cloud service would be ideal for a starting company.
@@ -114,31 +114,31 @@ Data is stored on a Mongo Database hosted on MLab.  We are storing our data usin
 
 Our images are going to be stored on AWS.  This will allow us to not go over the MLab free limit, and give us further introduction to cloud services.
 
-## Data encrypted at rest
+## 4. Data encrypted at rest
 
 Our data is hosted on MLab which is encrypted.
 
-## Database makes use of master/slave replication
+## 5. Database makes use of master/slave replication
 
 Working with MLab, it was unclear how to implement this.
 
-## Use of Responsive design
+## 6. Use of Responsive design
 
 Our team has implemented media queries with in our web design to make our webpage more user friendly by allowing the webpage conform to various screen sizes.
 
-## Use of https
+## 7. Use of https
 
 
 
-## Use of user authentication
+## 8. Use of user authentication
 
 We are authenticating users using JWT and PassportJS. We chose this method to allow users to authenticate with our RestAPI.
 
-## Creation of Dev Environment
+## 9. Creation of Dev Environment
 
 Our Dev environment includes the using the tooling of packer and vagrant and GitHub, which we are automating the build of our operating system using packer. The two virtual machines images that we have created using packer includes webserver, nginx load balancer. We automate the deployment using vagrant and the provider we are using with vagrant is virtual box.
 
-## Layout design
+## 10. Layout design
 
 ![Server](server.jpg)
 ![Index](index_page.jpg)
