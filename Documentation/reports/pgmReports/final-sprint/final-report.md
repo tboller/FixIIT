@@ -19,16 +19,10 @@ first I had worked with tools such as Packer, Vagrant, and Git."
 "I have an associates degree from the College of Dupage in Computer internetworking and technology. I am also CCNA certified by Cisco, and as well have a certificate in CCNA security. The background i come from is more on the hardware and infrastructure side. I am skilled in creating networks, building servers, system administration, testing the builds, and documenting. My weakness is on the development side, i am not that creating with creating applications but i know how to get the applications run on the servers."
 
 ### Vince Giaimo
-This Sprint I have reviewed the html code that I have worked on throughout the project development to make sure there was no issues with our html pages and css pages. Then, I have reviewed the angular component code that was recoded from our html/css pages, in order to work with our background architecture. Furthermore, I have done some research to help find the solution to implement the https protocol within our web application project, after doing some research it was still a challenge for us to implement on our webpages. Overall, I think our team has done a good job on getting as much as we could accomplish for our last sprint. My background, I have completed an associates degree in Computer Information Technology from College of Dupage. I have completed the CCNA program and have recieved my CCNA certification. My Intrest in IT is everything, the more you know the better. I would like to learn as much as I can to make my IT skills the best they could be
+"I have completed an associates degree in Computer Information Technology from College of Dupage. I have completed the CCNA program and have recieved my CCNA certification. My Intrest in IT is everything, the more you know the better. I would like to learn as much as I can to make my IT skills the best they could be"
 
 ### Emmanuel Zambrano
 "I have a specialization in Web Development. I have taken coursework in information architecture, human computer interaction, and user experience. I am interested in how information is displayed and the design process."
-
-## Sprint 5 Accomplishments
-1. Getting front end done for creating tickets
-2. Finish voting functionality
-3. Complete Login function using Angular Frontend
-4. Finalize our webpages design
 
 ## Accomplishments for all sprints
 
@@ -50,7 +44,6 @@ This Sprint I have reviewed the html code that I have worked on throughout the p
 2. Incorporate Mongoose ODM
 3. Get our backend and front end both running on vagrant
 
-
 ### Sprint 4 Accomplishments
 
 1. Connected Angular Front End Register page to the Database through the back end.
@@ -59,6 +52,12 @@ This Sprint I have reviewed the html code that I have worked on throughout the p
 4. Added functionality to create, view, update, and delete tickets through the backend API.
 5. Created the ReadMe file that demonstrates how to build our current infrastructure.
 6. Created a new json packer file to be able to build a server without having to use an Ubuntu ISO file.
+
+### Sprint 5 Accomplishments
+1. Getting front end done for creating tickets
+2. Finish voting functionality
+3. Complete Login function using Angular Frontend
+4. Finalize our webpages design
 
 ## Assessment
 
@@ -104,7 +103,6 @@ The application was built using NodeJS, ExpressJS, Angular, Linux, MongoDB. Thes
 ## 2. Operating System Platform
 
 Our operating platform we are using is Ubuntu 16.04.3 long term support, we are using this because it consumes less resources and we can create identical machine images utilizing ubuntu along with packer in doing so we are able to use version control with our operating system. There are many applications that we can download for ubuntu server, also there is a lot of available resources on the internet that we can use for reference.
-
 
 ## 3. Use of Data Store/Storage
 
