@@ -1,11 +1,30 @@
-<p>
-  sitemap works!
-</p>
-
-
-  <ul>
-    <li><a [routerLink]="['/terms']">Terms of Use</a></li>
-    <li><a [routerLink]="['/contact']">Contact Us</a></li>
-    <li><a [routerLink]="['/sitemap']">Sitemap</a></li>
-  </ul>
-
+<html lang="en-us" class="nojs">
+<head>
+    <title> Sitemap </title>
+    <meta charset="utf-8" />
+    <meta name="viewport" content="width=device-width,initial-scale=1.0,shrink-to-fit=no" />
+</head>
+  <body class="test1">
+    <header>
+      <nav>
+        <div class="topnav" id="myTopnav">
+          <a href="user.html" class="active"> Home </a>
+          
+          <button class="logoutbutton" onclick="window.location.href='login.html'"><img src="project-2-images/iconbutton.png" class= "iconButton" alt="logout"></button>
+        </div>
+      </nav>
+    </header>
+    <div id="workflow">
+      <img src="assets/images/Workflow.png" alt="workflow" width="600" height="400" >
+      </div>
+      <footer id="Footer">
+        <nav id="links">
+          <ul>
+            <li><a [routerLink]="['/terms']">Terms of Use</a></li>
+            <li><a [routerLink]="['/contact']">Contact Us</a></li>
+            <li><a [routerLink]="['/sitemap']">Sitemap</a></li>
+          </ul>
+        </nav>
+      </footer>
+  </body>
+</html>
