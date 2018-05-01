@@ -190,6 +190,19 @@ Our Team has made use of slack to communicate with each other and to make sure e
 
 Github is used as our version control to store our documentation, artifacts, code, configuration files etc.
 
+A we were completing our project we ran into some bugs that we reported using the github issues feature. Here are a few of those bugs:
+
+1. Cross OS issue. OS specific files made their way onto our repo. Added that type of file to our gitignore.
+2. Parsing JSON information.
+3. Error with flash messages.
+4. MLab keys were accidentally committed to our repository.
+5. .DS store files were found in our repository.
+6. Error connecting to api. Code used wrong path.
+7. Links were to local host and were made relative.
+8. Misplaced html tag caused webpage to go blank.
+9. Route to like a post was wrong.
+10. Unnecessary html in angular components.
+
 ## 13. Team must generate at least 15 real “test” user data that is inserted upon instance creation and proper data to test functionality of a system
 
 Test users were created by using Postman to make requests to the API.
