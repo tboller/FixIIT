@@ -143,8 +143,8 @@ Our Dev environment includes the using the tooling of packer and vagrant and Git
 ![Server](server.jpg)
 ![Index](index_page.jpg)
 ![Login](login_page.jpg)
-![Admin](admin_page.jpg)
-![User](user_page.jpg)
+![Admin](admin_page.JPG)
+![User](user_page.JPG)
 
 ### Header:
 •Admin and User page will have a header that includes a HOME button in the left side, along with an upload button, a dropdown MENU and a logout icon in the right side.
